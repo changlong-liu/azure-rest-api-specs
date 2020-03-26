@@ -1202,7 +1202,7 @@
             "name": "force",
             "in": "query",
             "required": false,
-            "type": "string",
+            "type": "boolean",
             "description": "Force flag to delete sessionHost."
           }
         ],
