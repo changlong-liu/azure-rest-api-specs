@@ -1,27 +1,8 @@
-<!-- region Generated -->
-# Dns
-This directory contains the Cli common model for the Dns service.
+## CLI
 
-> Metadata
+These settings don't need to apply `--cli` on the command line.
+
 ``` yaml
-# Migrated from Powershell's readme
-
-title: 'ConnectedMachine'
-
 cli:
-    cli-directive:
-      - select: 'operationGroup'
-        where:
-            operatoinGroup: 'operations'
-        hidden: true
-      - select: 'operation'
-        where:
-            operationGroup: 'machines'
-            operation: '(reconnect|createOrUpdate|update)'
-        removed: true
-      - select: 'operation'
-        where:
-            operationGroup: 'machineExtensions'
-            operation: '(createOrUpdate|update|delete|get|list)'
-        removed: true
+  cli-name: hybridcompute
 ```
