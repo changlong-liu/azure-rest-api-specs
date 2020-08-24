@@ -20,4 +20,18 @@ directive:
       group: desktopvirtualization application-group
     set:
       group: desktopvirtualization applicationgroup
+  # - where: 
+  #     command: desktopvirtualization hostpool create
+  #     parameter-name: preferredAppGroupType
+  #   set:
+  #     alias: appgrouptype
+
+cli:
+    cli-directive:
+      - where:
+          group: HostPools
+          param: preferredAppGroupType
+        alias:
+          - pa
+          - preferred-app-group-type
 ```
