@@ -8,6 +8,7 @@ az:
   namespace: azure.mgmt.datafactory
   package-name: azure-mgmt-datafactory
   randomize-names: true
+  disable-checks: true
 az-output-folder:  $(azure-cli-extension-folder)/src/datafactory
 python-sdk-output-folder: "$(az-output-folder)/azext_datafactory/vendored_sdks/datafactory"
 

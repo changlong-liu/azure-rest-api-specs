@@ -7,6 +7,7 @@ az:
   extensions: kusto
   namespace: azure.mgmt.kusto
   package-name: azure-mgmt-kusto
+  disable-checks: true
 az-output-folder: $(azure-cli-extension-folder)/src/kusto
 python-sdk-output-folder: "$(az-output-folder)/azext_kusto/vendored_sdks/kusto"
 
