@@ -19,9 +19,7 @@ cli:
     - name: KustoDatabasesListByCluster
     - name: KustoClustersListResourceSkus
     - name: KustoClustersGet
-    - name: KustoClustersListByResourceGroup
     - name: KustoClustersList
-    - name: KustoClustersListSkus
     - name: KustoOperationsList
     - name: KustoDataConnectionsUpdate
     - name: KustoDataConnectionValidation
