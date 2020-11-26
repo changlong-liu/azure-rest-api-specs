@@ -24,9 +24,6 @@ cli:
     - name: KustoDataConnectionsUpdate
     - name: KustoDataConnectionValidation
     - name: KustoDataConnectionsCheckNameAvailability
-    - name: KustoDatabaseRemovePrincipals
-    - name: KustoDatabaseListPrincipals
-    - name: KustoDatabaseAddPrincipals
     - name: KustoDatabasesUpdate
     - name: KustoClusterDetachFollowerDatabases
     - name: KustoDatabaseCheckNameAvailability
