@@ -45,6 +45,12 @@
         "x-ms-examples": {
           "VirtualMachineRunCommandList": {
             "$ref": "./examples/VirtualMachineRunCommandList.json"
+          },
+          "VirtualMachineRunCommands_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_List_MinimumSet_Gen.json"
           }
         },
         "description": "Lists all available run commands for a subscription in a location.",
@@ -86,6 +92,12 @@
         "x-ms-examples": {
           "VirtualMachineRunCommandGet": {
             "$ref": "./examples/VirtualMachineRunCommandGet.json"
+          },
+          "VirtualMachineRunCommands_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Get_MinimumSet_Gen.json"
           }
         },
         "description": "Gets specific run command for a subscription in a location.",
@@ -131,6 +143,12 @@
         "x-ms-examples": {
           "VirtualMachineRunCommand": {
             "$ref": "./examples/VirtualMachineRunCommand.json"
+          },
+          "VirtualMachines_RunCommand_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_RunCommand_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_RunCommand_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_RunCommand_MinimumSet_Gen.json"
           }
         },
         "description": "Run command on the VM.",
@@ -191,6 +209,12 @@
         "x-ms-examples": {
           "VirtualMachineScaleSetVMs_RunCommand": {
             "$ref": "./examples/VMScaleSetRunCommand.json"
+          },
+          "VirtualMachineScaleSetVMs_RunCommand_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_RunCommand_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_RunCommand_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_RunCommand_MinimumSet_Gen.json"
           }
         },
         "description": "Run command on a virtual machine in a VM scale set.",
@@ -318,6 +342,12 @@
         "x-ms-examples": {
           "Create or update a run command.": {
             "$ref": "./examples/CreateOrUpdateRunCommand.json"
+          },
+          "VirtualMachineRunCommands_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -383,6 +413,12 @@
         "x-ms-examples": {
           "Update a run command.": {
             "$ref": "./examples/UpdateRunCommand.json"
+          },
+          "VirtualMachineRunCommands_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -442,6 +478,12 @@
         "x-ms-examples": {
           "Delete a run command.": {
             "$ref": "./examples/DeleteRunCommand.json"
+          },
+          "VirtualMachineRunCommands_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -504,6 +546,12 @@
         "x-ms-examples": {
           "Get a run command.": {
             "$ref": "./examples/GetRunCommand.json"
+          },
+          "VirtualMachineRunCommands_GetByVirtualMachine_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_GetByVirtualMachine_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_GetByVirtualMachine_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_GetByVirtualMachine_MinimumSet_Gen.json"
           }
         }
       }
@@ -561,6 +609,12 @@
         "x-ms-examples": {
           "List run commands in a Virtual Machine.": {
             "$ref": "./examples/ListRunCommandsInVM.json"
+          },
+          "VirtualMachineRunCommands_ListByVirtualMachine_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_ListByVirtualMachine_MaximumSet_Gen.json"
+          },
+          "VirtualMachineRunCommands_ListByVirtualMachine_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineRunCommands_ListByVirtualMachine_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -644,6 +698,12 @@
         "x-ms-examples": {
           "Create VirtualMachineScaleSet VM run command.": {
             "$ref": "./examples/CreateOrUpdateVirtualMachineScaleSetVMRunCommands.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -716,6 +776,12 @@
         "x-ms-examples": {
           "Update VirtualMachineScaleSet VM run command.": {
             "$ref": "./examples/UpdateVirtualMachineScaleSetVMRunCommands.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -782,6 +848,12 @@
         "x-ms-examples": {
           "Delete VirtualMachineScaleSet VM run command.": {
             "$ref": "./examples/DeleteVirtualMachineScaleSetVMRunCommands.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -851,6 +923,12 @@
         "x-ms-examples": {
           "Get VirtualMachineScaleSet VM run commands.": {
             "$ref": "./examples/GetVirtualMachineScaleSetVMRunCommands.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -918,6 +996,12 @@
         "x-ms-examples": {
           "List run commands in Vmss instance.": {
             "$ref": "./examples/ListVirtualMachineScaleSetVMRunCommands.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMRunCommands_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMRunCommands_List_MinimumSet_Gen.json"
           }
         }
       }

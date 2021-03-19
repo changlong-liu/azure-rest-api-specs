@@ -98,6 +98,12 @@
         "x-ms-examples": {
           "Create or update a simple gallery.": {
             "$ref": "./examples/CreateOrUpdateASimpleGallery.json"
+          },
+          "Galleries_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "Galleries_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -152,6 +158,12 @@
         "x-ms-examples": {
           "Update a simple gallery.": {
             "$ref": "./examples/UpdateASimpleGallery.json"
+          },
+          "Galleries_Update_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_Update_MaximumSet_Gen.json"
+          },
+          "Galleries_Update_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -196,6 +208,12 @@
         "x-ms-examples": {
           "Get a gallery.": {
             "$ref": "./examples/GetAGallery.json"
+          },
+          "Galleries_Get_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_Get_MaximumSet_Gen.json"
+          },
+          "Galleries_Get_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -244,6 +262,12 @@
         "x-ms-examples": {
           "Delete a gallery.": {
             "$ref": "./examples/DeleteAGallery.json"
+          },
+          "Galleries_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_Delete_MaximumSet_Gen.json"
+          },
+          "Galleries_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_Delete_MinimumSet_Gen.json"
           }
         }
       }
@@ -319,6 +343,12 @@
         "x-ms-examples": {
           "Create or update a simple gallery image.": {
             "$ref": "./examples/CreateOrUpdateASimpleGalleryImage.json"
+          },
+          "GalleryImages_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImages_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "GalleryImages_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImages_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -380,6 +410,12 @@
         "x-ms-examples": {
           "Update a simple gallery image.": {
             "$ref": "./examples/UpdateASimpleGalleryImage.json"
+          },
+          "GalleryImages_Update_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Update_MaximumSet_Gen.json"
+          },
+          "GalleryImages_Update_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -431,6 +467,12 @@
         "x-ms-examples": {
           "Get a gallery image.": {
             "$ref": "./examples/GetAGalleryImage.json"
+          },
+          "GalleryImages_Get_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Get_MaximumSet_Gen.json"
+          },
+          "GalleryImages_Get_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -486,6 +528,12 @@
         "x-ms-examples": {
           "Delete a gallery image.": {
             "$ref": "./examples/DeleteAGalleryImage.json"
+          },
+          "GalleryImages_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Delete_MaximumSet_Gen.json"
+          },
+          "GalleryImages_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImages_Delete_MinimumSet_Gen.json"
           }
         }
       }
@@ -571,6 +619,12 @@
           },
           "Create or update a simple Gallery Image Version using snapshots as a source.": {
             "$ref": "./examples/CreateOrUpdateASimpleGalleryImageVersionWithSnapshotsAsSource.json"
+          },
+          "GalleryImageVersions_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "GalleryImageVersions_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -639,6 +693,12 @@
         "x-ms-examples": {
           "Update a simple Gallery Image Version (Managed Image as source).": {
             "$ref": "./examples/UpdateASimpleGalleryImageVersion.json"
+          },
+          "GalleryImageVersions_Update_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Update_MaximumSet_Gen.json"
+          },
+          "GalleryImageVersions_Update_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -717,6 +777,12 @@
           },
           "Get a gallery Image Version with snapshots as a source.": {
             "$ref": "./examples/GetAGalleryImageVersionWithSnapshotsAsSource.json"
+          },
+          "GalleryImageVersions_Get_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Get_MaximumSet_Gen.json"
+          },
+          "GalleryImageVersions_Get_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -779,6 +845,12 @@
         "x-ms-examples": {
           "Delete a gallery Image Version.": {
             "$ref": "./examples/DeleteAGalleryImageVersion.json"
+          },
+          "GalleryImageVersions_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Delete_MaximumSet_Gen.json"
+          },
+          "GalleryImageVersions_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_Delete_MinimumSet_Gen.json"
           }
         }
       }
@@ -854,6 +926,12 @@
         "x-ms-examples": {
           "Create or update a simple gallery Application.": {
             "$ref": "./examples/CreateOrUpdateASimpleGalleryApplication.json"
+          },
+          "GalleryApplications_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "GalleryApplications_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -915,6 +993,12 @@
         "x-ms-examples": {
           "Update a simple gallery Application.": {
             "$ref": "./examples/UpdateASimpleGalleryApplication.json"
+          },
+          "GalleryApplications_Update_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Update_MaximumSet_Gen.json"
+          },
+          "GalleryApplications_Update_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -966,6 +1050,12 @@
         "x-ms-examples": {
           "Get a gallery Application.": {
             "$ref": "./examples/GetAGalleryApplication.json"
+          },
+          "GalleryApplications_Get_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Get_MaximumSet_Gen.json"
+          },
+          "GalleryApplications_Get_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -1021,6 +1111,12 @@
         "x-ms-examples": {
           "Delete a gallery Application.": {
             "$ref": "./examples/DeleteAGalleryApplication.json"
+          },
+          "GalleryApplications_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Delete_MaximumSet_Gen.json"
+          },
+          "GalleryApplications_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_Delete_MinimumSet_Gen.json"
           }
         }
       }
@@ -1103,6 +1199,12 @@
         "x-ms-examples": {
           "Create or update a simple gallery Application Version.": {
             "$ref": "./examples/CreateOrUpdateASimpleGalleryApplicationVersion.json"
+          },
+          "GalleryApplicationVersions_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "GalleryApplicationVersions_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -1171,6 +1273,12 @@
         "x-ms-examples": {
           "Update a simple gallery Application Version.": {
             "$ref": "./examples/UpdateASimpleGalleryApplicationVersion.json"
+          },
+          "GalleryApplicationVersions_Update_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Update_MaximumSet_Gen.json"
+          },
+          "GalleryApplicationVersions_Update_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -1246,6 +1354,12 @@
           },
           "Get a gallery Application Version with replication status.": {
             "$ref": "./examples/GetAGalleryApplicationVersionWithReplicationStatus.json"
+          },
+          "GalleryApplicationVersions_Get_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Get_MaximumSet_Gen.json"
+          },
+          "GalleryApplicationVersions_Get_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -1308,6 +1422,12 @@
         "x-ms-examples": {
           "Delete a gallery Application Version.": {
             "$ref": "./examples/DeleteAGalleryApplicationVersion.json"
+          },
+          "GalleryApplicationVersions_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Delete_MaximumSet_Gen.json"
+          },
+          "GalleryApplicationVersions_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_Delete_MinimumSet_Gen.json"
           }
         }
       }
@@ -1347,6 +1467,12 @@
         "x-ms-examples": {
           "List galleries in a resource group.": {
             "$ref": "./examples/ListGalleriesInAResourceGroup.json"
+          },
+          "Galleries_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "Galleries_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1386,6 +1512,12 @@
         "x-ms-examples": {
           "List galleries in a subscription.": {
             "$ref": "./examples/ListGalleriesInASubscription.json"
+          },
+          "Galleries_List_MaximumSet_Gen": {
+            "$ref": "./examples/Galleries_List_MaximumSet_Gen.json"
+          },
+          "Galleries_List_MinimumSet_Gen": {
+            "$ref": "./examples/Galleries_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1435,6 +1567,12 @@
         "x-ms-examples": {
           "List gallery images in a gallery.": {
             "$ref": "./examples/ListGalleryImagesInAGallery.json"
+          },
+          "GalleryImages_ListByGallery_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImages_ListByGallery_MaximumSet_Gen.json"
+          },
+          "GalleryImages_ListByGallery_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImages_ListByGallery_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1491,6 +1629,12 @@
         "x-ms-examples": {
           "List gallery Image Versions in a gallery Image Definition.": {
             "$ref": "./examples/ListGalleryImageVersionsInAGalleryImage.json"
+          },
+          "GalleryImageVersions_ListByGalleryImage_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_ListByGalleryImage_MaximumSet_Gen.json"
+          },
+          "GalleryImageVersions_ListByGalleryImage_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryImageVersions_ListByGalleryImage_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1540,6 +1684,12 @@
         "x-ms-examples": {
           "List gallery Applications in a gallery.": {
             "$ref": "./examples/ListGalleryApplicationsInAGallery.json"
+          },
+          "GalleryApplications_ListByGallery_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_ListByGallery_MaximumSet_Gen.json"
+          },
+          "GalleryApplications_ListByGallery_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplications_ListByGallery_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1596,6 +1746,12 @@
         "x-ms-examples": {
           "List gallery Application Versions in a gallery Application Definition.": {
             "$ref": "./examples/ListGalleryApplicationVersionsInAGalleryApplication.json"
+          },
+          "GalleryApplicationVersions_ListByGalleryApplication_MaximumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_ListByGalleryApplication_MaximumSet_Gen.json"
+          },
+          "GalleryApplicationVersions_ListByGalleryApplication_MinimumSet_Gen": {
+            "$ref": "./examples/GalleryApplicationVersions_ListByGalleryApplication_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {

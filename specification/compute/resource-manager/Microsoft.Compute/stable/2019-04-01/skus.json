@@ -74,6 +74,12 @@
           },
           "Lists all available Resource SKUs for the specified region": {
             "$ref": "./examples/ListAvailableResourceSkusForARegion.json"
+          },
+          "ResourceSkus_List_MaximumSet_Gen": {
+            "$ref": "./examples/ResourceSkus_List_MaximumSet_Gen.json"
+          },
+          "ResourceSkus_List_MinimumSet_Gen": {
+            "$ref": "./examples/ResourceSkus_List_MinimumSet_Gen.json"
           }
         }
       }

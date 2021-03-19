@@ -111,6 +111,12 @@
           },
           "Create an empty managed disk in extended location.": {
             "$ref": "./examples/CreateAnEmptyManagedDiskInExtendedLocation.json"
+          },
+          "Disks_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "Disks_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -171,6 +177,12 @@
           },
           "Create or update a bursting enabled managed disk.": {
             "$ref": "./examples/CreateOrUpdateABurstingEnabledManagedDisk.json"
+          },
+          "Disks_Update_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_Update_MaximumSet_Gen.json"
+          },
+          "Disks_Update_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -205,6 +217,12 @@
         "x-ms-examples": {
           "Get information about a managed disk.": {
             "$ref": "./examples/GetInformationAboutAManagedDisk.json"
+          },
+          "Disks_Get_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_Get_MaximumSet_Gen.json"
+          },
+          "Disks_Get_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -239,7 +257,15 @@
             "description": "If the disk is deleted, this is an expected error code."
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "Disks_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_Delete_MaximumSet_Gen.json"
+          },
+          "Disks_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_Delete_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/disks": {
@@ -271,6 +297,12 @@
         "x-ms-examples": {
           "List all managed disks in a resource group.": {
             "$ref": "./examples/ListManagedDisksInAResourceGroup.json"
+          },
+          "Disks_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "Disks_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -304,6 +336,12 @@
         "x-ms-examples": {
           "List all managed disks in a subscription.": {
             "$ref": "./examples/ListManagedDisksInASubscription.json"
+          },
+          "Disks_List_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_List_MaximumSet_Gen.json"
+          },
+          "Disks_List_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -355,6 +393,14 @@
         "x-ms-long-running-operation": true,
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
+        },
+        "x-ms-examples": {
+          "Disks_GrantAccess_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_GrantAccess_MaximumSet_Gen.json"
+          },
+          "Disks_GrantAccess_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_GrantAccess_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -390,6 +436,14 @@
         "x-ms-long-running-operation": true,
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
+        },
+        "x-ms-examples": {
+          "Disks_RevokeAccess_MaximumSet_Gen": {
+            "$ref": "./examples/Disks_RevokeAccess_MaximumSet_Gen.json"
+          },
+          "Disks_RevokeAccess_MinimumSet_Gen": {
+            "$ref": "./examples/Disks_RevokeAccess_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -446,6 +500,12 @@
           },
           "Create a snapshot by importing an unmanaged blob from a different subscription.": {
             "$ref": "./examples/CreateASnapshotByImportingAnUnmanagedBlobFromADifferentSubscription.json"
+          },
+          "Snapshots_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "Snapshots_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -493,7 +553,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "Snapshots_Update_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_Update_MaximumSet_Gen.json"
+          },
+          "Snapshots_Update_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "get": {
         "tags": [
@@ -526,6 +594,12 @@
         "x-ms-examples": {
           "Get information about a snapshot.": {
             "$ref": "./examples/GetInformationAboutASnapshot.json"
+          },
+          "Snapshots_Get_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_Get_MaximumSet_Gen.json"
+          },
+          "Snapshots_Get_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -560,7 +634,15 @@
             "description": "If the snapshot is deleted, this is an expected error code."
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "Snapshots_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_Delete_MaximumSet_Gen.json"
+          },
+          "Snapshots_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_Delete_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/snapshots": {
@@ -592,6 +674,12 @@
         "x-ms-examples": {
           "List all snapshots in a resource group.": {
             "$ref": "./examples/ListSnapshotsInAResourceGroup.json"
+          },
+          "Snapshots_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "Snapshots_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -625,6 +713,12 @@
         "x-ms-examples": {
           "List all snapshots in a subscription.": {
             "$ref": "./examples/ListSnapshotsInASubscription.json"
+          },
+          "Snapshots_List_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_List_MaximumSet_Gen.json"
+          },
+          "Snapshots_List_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -676,6 +770,14 @@
         "x-ms-long-running-operation": true,
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
+        },
+        "x-ms-examples": {
+          "Snapshots_GrantAccess_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_GrantAccess_MaximumSet_Gen.json"
+          },
+          "Snapshots_GrantAccess_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_GrantAccess_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -711,6 +813,14 @@
         "x-ms-long-running-operation": true,
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
+        },
+        "x-ms-examples": {
+          "Snapshots_RevokeAccess_MaximumSet_Gen": {
+            "$ref": "./examples/Snapshots_RevokeAccess_MaximumSet_Gen.json"
+          },
+          "Snapshots_RevokeAccess_MinimumSet_Gen": {
+            "$ref": "./examples/Snapshots_RevokeAccess_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -770,6 +880,12 @@
           },
           "Create a disk encryption set with key vault from a different subscription.": {
             "$ref": "./examples/CreateADiskEncryptionSetWithKeyVaultFromADifferentSubscription.json"
+          },
+          "DiskEncryptionSets_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -826,6 +942,12 @@
         "x-ms-examples": {
           "Update a disk encryption set.": {
             "$ref": "./examples/UpdateADiskEncryptionSet.json"
+          },
+          "DiskEncryptionSets_Update_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Update_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_Update_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Update_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -867,6 +989,12 @@
         "x-ms-examples": {
           "Get information about a disk encryption set.": {
             "$ref": "./examples/GetInformationAboutADiskEncryptionSet.json"
+          },
+          "DiskEncryptionSets_Get_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Get_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_Get_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -910,6 +1038,12 @@
         "x-ms-examples": {
           "Delete a disk encryption set.": {
             "$ref": "./examples/DeleteADiskEncryptionSet.json"
+          },
+          "DiskEncryptionSets_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Delete_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_Delete_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -950,6 +1084,12 @@
         "x-ms-examples": {
           "List all disk encryption sets in a resource group.": {
             "$ref": "./examples/ListDiskEncryptionSetsInAResourceGroup.json"
+          },
+          "DiskEncryptionSets_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -989,6 +1129,12 @@
         "x-ms-examples": {
           "List all disk encryption sets in a subscription.": {
             "$ref": "./examples/ListDiskEncryptionSetsInASubscription.json"
+          },
+          "DiskEncryptionSets_List_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_List_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_List_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1034,6 +1180,12 @@
         "x-ms-examples": {
           "List all resources that are encrypted with this disk encryption set.": {
             "$ref": "./examples/ListDiskEncryptionSetAssociatedResources.json"
+          },
+          "DiskEncryptionSets_ListAssociatedResources_MaximumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_ListAssociatedResources_MaximumSet_Gen.json"
+          },
+          "DiskEncryptionSets_ListAssociatedResources_MinimumSet_Gen": {
+            "$ref": "./examples/DiskEncryptionSets_ListAssociatedResources_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1094,6 +1246,12 @@
         "x-ms-examples": {
           "Create a disk access resource.": {
             "$ref": "./examples/CreateADiskAccess.json"
+          },
+          "DiskAccesses_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -1150,6 +1308,12 @@
         "x-ms-examples": {
           "Update a disk access resource.": {
             "$ref": "./examples/UpdateADiskAccess.json"
+          },
+          "DiskAccesses_Update_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Update_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_Update_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Update_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -1194,6 +1358,12 @@
           },
           "Get information about a disk access resource with private endpoints.": {
             "$ref": "./examples/GetInformationAboutADiskAccessWithPrivateEndpoints.json"
+          },
+          "DiskAccesses_Get_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Get_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_Get_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Get_MinimumSet_Gen.json"
           }
         }
       },
@@ -1237,6 +1407,12 @@
         "x-ms-examples": {
           "Delete a disk access resource.": {
             "$ref": "./examples/DeleteADiskAccess.json"
+          },
+          "DiskAccesses_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Delete_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_Delete_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -1277,6 +1453,12 @@
         "x-ms-examples": {
           "List all disk access resources in a resource group.": {
             "$ref": "./examples/ListDiskAccessesInAResourceGroup.json"
+          },
+          "DiskAccesses_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1316,6 +1498,12 @@
         "x-ms-examples": {
           "List all disk access resources in a subscription.": {
             "$ref": "./examples/ListDiskAccessesInASubscription.json"
+          },
+          "DiskAccesses_List_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_List_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_List_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1355,6 +1543,12 @@
         "x-ms-examples": {
           "List all possible private link resources under disk access resource.": {
             "$ref": "./examples/GetDiskAccessPrivateLinkResources.json"
+          },
+          "DiskAccesses_GetPrivateLinkResources_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_GetPrivateLinkResources_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_GetPrivateLinkResources_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_GetPrivateLinkResources_MinimumSet_Gen.json"
           }
         }
       }
@@ -1415,6 +1609,12 @@
         "x-ms-examples": {
           "Approve a Private Endpoint Connection under a disk access resource.": {
             "$ref": "./examples/ApprovePrivateEndpointConnection.json"
+          },
+          "DiskAccesses_UpdateAPrivateEndpointConnection_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_UpdateAPrivateEndpointConnection_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_UpdateAPrivateEndpointConnection_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_UpdateAPrivateEndpointConnection_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -1459,6 +1659,12 @@
         "x-ms-examples": {
           "Get information about a private endpoint connection under a disk access resource.": {
             "$ref": "./examples/GetInformationAboutAPrivateEndpointConnection.json"
+          },
+          "DiskAccesses_GetAPrivateEndpointConnection_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_GetAPrivateEndpointConnection_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_GetAPrivateEndpointConnection_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_GetAPrivateEndpointConnection_MinimumSet_Gen.json"
           }
         }
       },
@@ -1505,6 +1711,12 @@
         "x-ms-examples": {
           "Delete a private endpoint connection under a disk access resource.": {
             "$ref": "./examples/DeleteAPrivateEndpointConnection.json"
+          },
+          "DiskAccesses_DeleteAPrivateEndpointConnection_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_DeleteAPrivateEndpointConnection_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_DeleteAPrivateEndpointConnection_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_DeleteAPrivateEndpointConnection_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -1548,6 +1760,12 @@
         "x-ms-examples": {
           "Get information about a private endpoint connection under a disk access resource.": {
             "$ref": "./examples/ListPrivateEndpointConnectionsInADiskAccess.json"
+          },
+          "DiskAccesses_ListPrivateEndpointConnections_MaximumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_ListPrivateEndpointConnections_MaximumSet_Gen.json"
+          },
+          "DiskAccesses_ListPrivateEndpointConnections_MinimumSet_Gen": {
+            "$ref": "./examples/DiskAccesses_ListPrivateEndpointConnections_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -1599,6 +1817,12 @@
         "x-ms-examples": {
           "Get an incremental disk restorePoint resource.": {
             "$ref": "./examples/GetDiskRestorePointResources.json"
+          },
+          "DiskRestorePoint_Get_MaximumSet_Gen": {
+            "$ref": "./examples/DiskRestorePoint_Get_MaximumSet_Gen.json"
+          },
+          "DiskRestorePoint_Get_MinimumSet_Gen": {
+            "$ref": "./examples/DiskRestorePoint_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -1644,6 +1868,12 @@
         "x-ms-examples": {
           "Get an incremental disk restorePoint resource.": {
             "$ref": "./examples/ListDiskRestorePointsInVmRestorePoint.json"
+          },
+          "DiskRestorePoint_ListByRestorePoint_MaximumSet_Gen": {
+            "$ref": "./examples/DiskRestorePoint_ListByRestorePoint_MaximumSet_Gen.json"
+          },
+          "DiskRestorePoint_ListByRestorePoint_MinimumSet_Gen": {
+            "$ref": "./examples/DiskRestorePoint_ListByRestorePoint_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {

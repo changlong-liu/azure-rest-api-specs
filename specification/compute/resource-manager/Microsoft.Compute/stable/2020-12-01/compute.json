@@ -56,6 +56,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": null
+        },
+        "x-ms-examples": {
+          "Operations_List_MaximumSet_Gen": {
+            "$ref": "./examples/Operations_List_MaximumSet_Gen.json"
+          },
+          "Operations_List_MinimumSet_Gen": {
+            "$ref": "./examples/Operations_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -108,6 +116,12 @@
         "x-ms-examples": {
           "Create an availability set.": {
             "$ref": "./examples/CreateAnAvailabilitySet.json"
+          },
+          "AvailabilitySets_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -155,6 +169,14 @@
               "$ref": "#/definitions/AvailabilitySet"
             }
           }
+        },
+        "x-ms-examples": {
+          "AvailabilitySets_Update_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Update_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_Update_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Update_MinimumSet_Gen.json"
+          }
         }
       },
       "delete": {
@@ -192,6 +214,14 @@
           "204": {
             "description": "No Content"
           }
+        },
+        "x-ms-examples": {
+          "AvailabilitySets_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Delete_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Delete_MinimumSet_Gen.json"
+          }
         }
       },
       "get": {
@@ -228,6 +258,14 @@
             "schema": {
               "$ref": "#/definitions/AvailabilitySet"
             }
+          }
+        },
+        "x-ms-examples": {
+          "AvailabilitySets_Get_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Get_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_Get_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -268,6 +306,12 @@
         "x-ms-examples": {
           "List availability sets in a subscription.": {
             "$ref": "./examples/ListAvailabilitySetsInASubscription.json"
+          },
+          "AvailabilitySets_ListBySubscription_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_ListBySubscription_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_ListBySubscription_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_ListBySubscription_MinimumSet_Gen.json"
           }
         }
       }
@@ -304,6 +348,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "AvailabilitySets_List_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_List_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_List_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -346,6 +398,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": null
+        },
+        "x-ms-examples": {
+          "AvailabilitySets_ListAvailableSizes_MaximumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_ListAvailableSizes_MaximumSet_Gen.json"
+          },
+          "AvailabilitySets_ListAvailableSizes_MinimumSet_Gen": {
+            "$ref": "./examples/AvailabilitySets_ListAvailableSizes_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -404,6 +464,12 @@
         "x-ms-examples": {
           "Create or Update a proximity placement group.": {
             "$ref": "./examples/CreateOrUpdateAProximityPlacementGroup.json"
+          },
+          "ProximityPlacementGroups_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -455,6 +521,12 @@
         "x-ms-examples": {
           "Create a proximity placement group.": {
             "$ref": "./examples/PatchAProximityPlacementGroup.json"
+          },
+          "ProximityPlacementGroups_Update_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Update_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_Update_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -494,6 +566,12 @@
         "x-ms-examples": {
           "Create a proximity placement group.": {
             "$ref": "./examples/DeleteAProximityPlacementGroup.json"
+          },
+          "ProximityPlacementGroups_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Delete_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -543,6 +621,12 @@
         "x-ms-examples": {
           "Create a proximity placement group.": {
             "$ref": "./examples/GetAProximityPlacementGroup.json"
+          },
+          "ProximityPlacementGroups_Get_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Get_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_Get_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -576,6 +660,12 @@
         "x-ms-examples": {
           "Create a proximity placement group.": {
             "$ref": "./examples/ListProximityPlacementGroupsInASubscription.json"
+          },
+          "ProximityPlacementGroups_ListBySubscription_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_ListBySubscription_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_ListBySubscription_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_ListBySubscription_MinimumSet_Gen.json"
           }
         }
       }
@@ -616,6 +706,12 @@
         "x-ms-examples": {
           "Create a proximity placement group.": {
             "$ref": "./examples/ListProximityPlacementGroupsInAResourceGroup.json"
+          },
+          "ProximityPlacementGroups_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "ProximityPlacementGroups_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/ProximityPlacementGroups_ListByResourceGroup_MinimumSet_Gen.json"
           }
         }
       }
@@ -675,6 +771,12 @@
         "x-ms-examples": {
           "Create or update a dedicated host group.": {
             "$ref": "./examples/CreateOrUpdateADedicatedHostGroup.json"
+          },
+          "DedicatedHostGroups_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -722,6 +824,14 @@
               "$ref": "#/definitions/DedicatedHostGroup"
             }
           }
+        },
+        "x-ms-examples": {
+          "DedicatedHostGroups_Update_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Update_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_Update_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Update_MinimumSet_Gen.json"
+          }
         }
       },
       "delete": {
@@ -758,6 +868,14 @@
           },
           "204": {
             "description": "No Content"
+          }
+        },
+        "x-ms-examples": {
+          "DedicatedHostGroups_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Delete_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -814,6 +932,12 @@
         "x-ms-examples": {
           "Create a dedicated host group.": {
             "$ref": "./examples/GetADedicatedHostGroup.json"
+          },
+          "DedicatedHostGroups_Get_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Get_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_Get_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -850,6 +974,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "DedicatedHostGroups_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_ListByResourceGroup_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -878,6 +1010,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "DedicatedHostGroups_ListBySubscription_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_ListBySubscription_MaximumSet_Gen.json"
+          },
+          "DedicatedHostGroups_ListBySubscription_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHostGroups_ListBySubscription_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -943,6 +1083,12 @@
         "x-ms-examples": {
           "Create or update a dedicated host .": {
             "$ref": "./examples/CreateOrUpdateADedicatedHost.json"
+          },
+          "DedicatedHosts_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "DedicatedHosts_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -999,7 +1145,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "DedicatedHosts_Update_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Update_MaximumSet_Gen.json"
+          },
+          "DedicatedHosts_Update_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "delete": {
         "tags": [
@@ -1047,7 +1201,15 @@
             "description": "No Content"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "DedicatedHosts_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Delete_MaximumSet_Gen.json"
+          },
+          "DedicatedHosts_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Delete_MinimumSet_Gen.json"
+          }
+        }
       },
       "get": {
         "tags": [
@@ -1109,6 +1271,12 @@
         "x-ms-examples": {
           "Get a dedicated host.": {
             "$ref": "./examples/GetADedicatedHost.json"
+          },
+          "DedicatedHosts_Get_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Get_MaximumSet_Gen.json"
+          },
+          "DedicatedHosts_Get_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -1152,6 +1320,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "DedicatedHosts_ListByHostGroup_MaximumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_ListByHostGroup_MaximumSet_Gen.json"
+          },
+          "DedicatedHosts_ListByHostGroup_MinimumSet_Gen": {
+            "$ref": "./examples/DedicatedHosts_ListByHostGroup_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -1180,6 +1356,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "SshPublicKeys_ListBySubscription_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_ListBySubscription_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_ListBySubscription_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_ListBySubscription_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -1215,6 +1399,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "SshPublicKeys_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_ListByResourceGroup_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -1273,6 +1465,12 @@
         "x-ms-examples": {
           "Create a new SSH public key resource.": {
             "$ref": "./examples/CreateAnSshPublicKey.json"
+          },
+          "SshPublicKeys_Create_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Create_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_Create_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Create_MinimumSet_Gen.json"
           }
         }
       },
@@ -1320,6 +1518,14 @@
               "$ref": "#/definitions/SshPublicKeyResource"
             }
           }
+        },
+        "x-ms-examples": {
+          "SshPublicKeys_Update_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Update_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_Update_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Update_MinimumSet_Gen.json"
+          }
         }
       },
       "delete": {
@@ -1356,6 +1562,14 @@
           },
           "204": {
             "description": "No Content"
+          }
+        },
+        "x-ms-examples": {
+          "SshPublicKeys_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Delete_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -1398,6 +1612,12 @@
         "x-ms-examples": {
           "Get an ssh public key.": {
             "$ref": "./examples/GetAnSshPublicKey.json"
+          },
+          "SshPublicKeys_Get_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Get_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_Get_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -1442,6 +1662,12 @@
         "x-ms-examples": {
           "Generate an SSH key pair.": {
             "$ref": "./examples/GenerateSshKeyPair.json"
+          },
+          "SshPublicKeys_GenerateKeyPair_MaximumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_GenerateKeyPair_MaximumSet_Gen.json"
+          },
+          "SshPublicKeys_GenerateKeyPair_MinimumSet_Gen": {
+            "$ref": "./examples/SshPublicKeys_GenerateKeyPair_MinimumSet_Gen.json"
           }
         }
       }
@@ -1493,6 +1719,14 @@
               "$ref": "#/definitions/VirtualMachineExtensionImage"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineExtensionImages_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensionImages_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_Get_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -1533,6 +1767,14 @@
                 "$ref": "#/definitions/VirtualMachineExtensionImage"
               }
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineExtensionImages_ListTypes_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_ListTypes_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensionImages_ListTypes_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_ListTypes_MinimumSet_Gen.json"
           }
         }
       }
@@ -1602,7 +1844,15 @@
             }
           }
         },
-        "x-ms-odata": "#/definitions/VirtualMachineExtensionImage"
+        "x-ms-odata": "#/definitions/VirtualMachineExtensionImage",
+        "x-ms-examples": {
+          "VirtualMachineExtensionImages_ListVersions_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_ListVersions_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensionImages_ListVersions_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensionImages_ListVersions_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}": {
@@ -1664,7 +1914,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineExtensions_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensions_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_CreateOrUpdate_MinimumSet_Gen.json"
+          }
+        }
       },
       "patch": {
         "tags": [
@@ -1718,7 +1976,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineExtensions_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensions_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "delete": {
         "tags": [
@@ -1766,7 +2032,15 @@
             "description": "No Content"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineExtensions_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensions_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Delete_MinimumSet_Gen.json"
+          }
+        }
       },
       "get": {
         "tags": [
@@ -1817,6 +2091,14 @@
               "$ref": "#/definitions/VirtualMachineExtension"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineExtensions_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensions_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_Get_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -1862,6 +2144,14 @@
             "schema": {
               "$ref": "#/definitions/VirtualMachineExtensionsListResult"
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineExtensions_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineExtensions_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineExtensions_List_MinimumSet_Gen.json"
           }
         }
       }
@@ -1922,6 +2212,14 @@
             "schema": {
               "$ref": "#/definitions/VirtualMachineImage"
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImages_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImages_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -1999,6 +2297,14 @@
               }
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImages_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImages_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2041,6 +2347,14 @@
               }
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImages_ListOffers_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListOffers_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImages_ListOffers_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListOffers_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2075,6 +2389,14 @@
                 "$ref": "#/definitions/VirtualMachineImageResource"
               }
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImages_ListPublishers_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListPublishers_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImages_ListPublishers_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListPublishers_MinimumSet_Gen.json"
           }
         }
       }
@@ -2124,6 +2446,14 @@
                 "$ref": "#/definitions/VirtualMachineImageResource"
               }
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImages_ListSkus_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListSkus_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImages_ListSkus_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImages_ListSkus_MinimumSet_Gen.json"
           }
         }
       }
@@ -2197,6 +2527,14 @@
             "schema": {
               "$ref": "#/definitions/CloudError"
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImagesEdgeZone_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImagesEdgeZone_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -2289,6 +2627,14 @@
               "$ref": "#/definitions/CloudError"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImagesEdgeZone_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImagesEdgeZone_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2344,6 +2690,14 @@
               "$ref": "#/definitions/CloudError"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImagesEdgeZone_ListOffers_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListOffers_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImagesEdgeZone_ListOffers_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListOffers_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2391,6 +2745,14 @@
             "schema": {
               "$ref": "#/definitions/CloudError"
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImagesEdgeZone_ListPublishers_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListPublishers_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImagesEdgeZone_ListPublishers_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListPublishers_MinimumSet_Gen.json"
           }
         }
       }
@@ -2454,6 +2816,14 @@
               "$ref": "#/definitions/CloudError"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineImagesEdgeZone_ListSkus_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListSkus_MaximumSet_Gen.json"
+          },
+          "VirtualMachineImagesEdgeZone_ListSkus_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineImagesEdgeZone_ListSkus_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2490,6 +2860,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "Usage_List_MaximumSet_Gen": {
+            "$ref": "./examples/Usage_List_MaximumSet_Gen.json"
+          },
+          "Usage_List_MinimumSet_Gen": {
+            "$ref": "./examples/Usage_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2527,6 +2905,12 @@
         "x-ms-examples": {
           "Lists all the virtual machines under the specified subscription for the specified location.": {
             "$ref": "./examples/ListVirtualMachinesInASubscriptionByLocation.json"
+          },
+          "VirtualMachines_ListByLocation_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListByLocation_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_ListByLocation_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListByLocation_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -2574,6 +2958,12 @@
         "x-ms-examples": {
           "Lists all the VM scale sets under the specified subscription for the specified location.": {
             "$ref": "./examples/ListVirtualMachineScaleSetsInASubscriptionByLocation.json"
+          },
+          "VirtualMachineScaleSets_ListByLocation_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListByLocation_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ListByLocation_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListByLocation_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -2614,6 +3004,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": null
+        },
+        "x-ms-examples": {
+          "VirtualMachineSizes_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineSizes_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineSizes_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineSizes_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -2699,6 +3097,12 @@
           },
           "Create a virtual machine image from a managed disk with DiskEncryptionSet resource.": {
             "$ref": "./examples/CreateAnImageFromAManagedDiskWithDiskEncryptionSet.json"
+          },
+          "Images_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/Images_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "Images_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/Images_CreateOrUpdate_MinimumSet_Gen.json"
           }
         },
         "x-ms-long-running-operation": true
@@ -2758,6 +3162,12 @@
         "x-ms-examples": {
           "Updates tags of an Image.": {
             "$ref": "./examples/UpdateImage.json"
+          },
+          "Images_Update_MaximumSet_Gen": {
+            "$ref": "./examples/Images_Update_MaximumSet_Gen.json"
+          },
+          "Images_Update_MinimumSet_Gen": {
+            "$ref": "./examples/Images_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -2800,7 +3210,15 @@
             "description": "No Content"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "Images_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/Images_Delete_MaximumSet_Gen.json"
+          },
+          "Images_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/Images_Delete_MinimumSet_Gen.json"
+          }
+        }
       },
       "get": {
         "tags": [
@@ -2848,6 +3266,12 @@
         "x-ms-examples": {
           "Get information about a virtual machine image.": {
             "$ref": "./examples/GetInformationAboutAnImage.json"
+          },
+          "Images_Get_MaximumSet_Gen": {
+            "$ref": "./examples/Images_Get_MaximumSet_Gen.json"
+          },
+          "Images_Get_MinimumSet_Gen": {
+            "$ref": "./examples/Images_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -2885,6 +3309,12 @@
         "x-ms-examples": {
           "List all virtual machine images in a resource group.": {
             "$ref": "./examples/ListImagesInAResourceGroup.json"
+          },
+          "Images_ListByResourceGroup_MaximumSet_Gen": {
+            "$ref": "./examples/Images_ListByResourceGroup_MaximumSet_Gen.json"
+          },
+          "Images_ListByResourceGroup_MinimumSet_Gen": {
+            "$ref": "./examples/Images_ListByResourceGroup_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -2918,6 +3348,12 @@
         "x-ms-examples": {
           "List all virtual machine images in a subscription.": {
             "$ref": "./examples/ListImagesInASubscription.json"
+          },
+          "Images_List_MaximumSet_Gen": {
+            "$ref": "./examples/Images_List_MaximumSet_Gen.json"
+          },
+          "Images_List_MinimumSet_Gen": {
+            "$ref": "./examples/Images_List_MinimumSet_Gen.json"
           }
         },
         "x-ms-pageable": {
@@ -2977,6 +3413,14 @@
         "x-ms-long-running-operation": true,
         "x-ms-long-running-operation-options": {
           "final-state-via": "location"
+        },
+        "x-ms-examples": {
+          "VirtualMachines_Capture_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Capture_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Capture_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Capture_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -3108,6 +3552,12 @@
           },
           "Create a VM with Uefi Settings of secureBoot and vTPM.": {
             "$ref": "./examples/CreateAVmWithUefiSettings.json"
+          },
+          "VirtualMachines_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -3163,6 +3613,12 @@
           },
           "Update a VM by force-detaching data disk": {
             "$ref": "./examples/UpdateVMForceDetachDataDisk.json"
+          },
+          "VirtualMachines_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -3216,6 +3672,12 @@
         "x-ms-examples": {
           "Force delete a VM": {
             "$ref": "./examples/ForceDeleteVirtualMachine.json"
+          },
+          "VirtualMachines_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -3275,6 +3737,12 @@
           },
           "Get a virtual machine placed on a dedicated host group through automatic placement": {
             "$ref": "./examples/GetVirtualMachineAutoPlacedOnDedicatedHostGroup.json"
+          },
+          "VirtualMachines_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -3322,6 +3790,12 @@
           },
           "Get instance view of a virtual machine placed on a dedicated host group through automatic placement.": {
             "$ref": "./examples/GetVirtualMachineInstanceViewAutoPlacedOnDedicatedHostGroup.json"
+          },
+          "VirtualMachines_InstanceView_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_InstanceView_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_InstanceView_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_InstanceView_MinimumSet_Gen.json"
           }
         }
       }
@@ -3363,7 +3837,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_ConvertToManagedDisks_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ConvertToManagedDisks_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_ConvertToManagedDisks_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ConvertToManagedDisks_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/deallocate": {
@@ -3403,7 +3885,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_Deallocate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Deallocate_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Deallocate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Deallocate_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/generalize": {
@@ -3443,6 +3933,12 @@
         "x-ms-examples": {
           "Generalize a Virtual Machine.": {
             "$ref": "./examples/GeneralizeVirtualMachine.json"
+          },
+          "VirtualMachines_Generalize_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Generalize_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Generalize_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Generalize_MinimumSet_Gen.json"
           }
         }
       }
@@ -3479,6 +3975,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachines_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -3514,6 +4018,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachines_ListAll_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListAll_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_ListAll_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListAll_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -3560,6 +4072,12 @@
         "x-ms-examples": {
           "Lists all available virtual machine sizes to which the specified virtual machine can be resized": {
             "$ref": "./examples/ListAvailableVmSizes_VirtualMachines.json"
+          },
+          "VirtualMachines_ListAvailableSizes_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListAvailableSizes_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_ListAvailableSizes_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_ListAvailableSizes_MinimumSet_Gen.json"
           }
         }
       }
@@ -3609,7 +4127,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_PowerOff_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_PowerOff_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_PowerOff_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_PowerOff_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reapply": {
@@ -3659,6 +4185,12 @@
         "x-ms-examples": {
           "Reapply the state of a virtual machine.": {
             "$ref": "./examples/ReapplyVirtualMachine.json"
+          },
+          "VirtualMachines_Reapply_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Reapply_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Reapply_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Reapply_MinimumSet_Gen.json"
           }
         }
       }
@@ -3700,7 +4232,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_Restart_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Restart_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Restart_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Restart_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/start": {
@@ -3740,7 +4280,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_Start_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Start_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Start_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Start_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/redeploy": {
@@ -3780,7 +4328,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_Redeploy_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Redeploy_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Redeploy_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Redeploy_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reimage": {
@@ -3833,6 +4389,12 @@
         "x-ms-examples": {
           "Reimage a Virtual Machine.": {
             "$ref": "./examples/ReimageVirtualMachine.json"
+          },
+          "VirtualMachines_Reimage_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Reimage_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_Reimage_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_Reimage_MinimumSet_Gen.json"
           }
         }
       }
@@ -3892,6 +4454,12 @@
         "x-ms-examples": {
           "RetrieveBootDiagnosticsData of a virtual machine.": {
             "$ref": "./examples/RetrieveBootDiagnosticsDataVirtualMachine.json"
+          },
+          "VirtualMachines_RetrieveBootDiagnosticsData_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_RetrieveBootDiagnosticsData_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_RetrieveBootDiagnosticsData_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_RetrieveBootDiagnosticsData_MinimumSet_Gen.json"
           }
         }
       }
@@ -3933,7 +4501,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachines_PerformMaintenance_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_PerformMaintenance_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_PerformMaintenance_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_PerformMaintenance_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/simulateEviction": {
@@ -3974,6 +4550,12 @@
         "x-ms-examples": {
           "Simulate Eviction a virtual machine.": {
             "$ref": "./examples/SimulateEvictionOfVM.json"
+          },
+          "VirtualMachines_SimulateEviction_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_SimulateEviction_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_SimulateEviction_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_SimulateEviction_MinimumSet_Gen.json"
           }
         }
       }
@@ -3987,6 +4569,12 @@
         "x-ms-examples": {
           "Assess patch state of a virtual machine.": {
             "$ref": "./examples/VirtualMachineAssessPatches.json"
+          },
+          "VirtualMachines_AssessPatches_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_AssessPatches_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_AssessPatches_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_AssessPatches_MinimumSet_Gen.json"
           }
         },
         "description": "Assess patches on the VM.",
@@ -4045,6 +4633,12 @@
         "x-ms-examples": {
           "Install patch state of a virtual machine.": {
             "$ref": "./examples/VirtualMachineInstallPatches.json"
+          },
+          "VirtualMachines_InstallPatches_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_InstallPatches_MaximumSet_Gen.json"
+          },
+          "VirtualMachines_InstallPatches_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachines_InstallPatches_MinimumSet_Gen.json"
           }
         },
         "parameters": [
@@ -4220,6 +4814,12 @@
           },
           "Create a scale set with Uefi Settings of secureBoot and vTPM.": {
             "$ref": "./examples/CreateAScaleSetWithUefiSettings.json"
+          },
+          "VirtualMachineScaleSets_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -4268,7 +4868,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "delete": {
         "tags": [
@@ -4320,6 +4928,12 @@
         "x-ms-examples": {
           "Force Delete a VM scale set.": {
             "$ref": "./examples/ForceDeleteVirtualMachineScaleSets.json"
+          },
+          "VirtualMachineScaleSets_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -4362,6 +4976,12 @@
         "x-ms-examples": {
           "Get a virtual machine scale set placed on a dedicated host group through automatic placement.": {
             "$ref": "./examples/GetVirtualMachineScaleSetAutoPlacedOnDedicatedHostGroup.json"
+          },
+          "VirtualMachineScaleSets_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -4412,7 +5032,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Deallocate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Deallocate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Deallocate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Deallocate_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/delete": {
@@ -4468,7 +5096,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_DeleteInstances_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_DeleteInstances_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_DeleteInstances_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_DeleteInstances_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/instanceView": {
@@ -4507,6 +5143,14 @@
               "$ref": "#/definitions/VirtualMachineScaleSetInstanceView"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_GetInstanceView_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_GetInstanceView_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_GetInstanceView_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_GetInstanceView_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4542,6 +5186,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4604,7 +5256,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetExtensions_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetExtensions_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_CreateOrUpdate_MinimumSet_Gen.json"
+          }
+        }
       },
       "patch": {
         "tags": [
@@ -4664,7 +5324,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetExtensions_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetExtensions_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "delete": {
         "tags": [
@@ -4712,7 +5380,15 @@
             "description": "No Content"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetExtensions_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetExtensions_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Delete_MinimumSet_Gen.json"
+          }
+        }
       },
       "get": {
         "tags": [
@@ -4763,6 +5439,14 @@
               "$ref": "#/definitions/VirtualMachineScaleSetExtension"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSetExtensions_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetExtensions_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_Get_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4805,6 +5489,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSetExtensions_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetExtensions_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetExtensions_List_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4833,6 +5525,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_ListAll_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListAll_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ListAll_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListAll_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4875,6 +5575,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_ListSkus_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListSkus_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ListSkus_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ListSkus_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4917,6 +5625,14 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_GetOSUpgradeHistory_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_GetOSUpgradeHistory_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_GetOSUpgradeHistory_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_GetOSUpgradeHistory_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -4974,7 +5690,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_PowerOff_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_PowerOff_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_PowerOff_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_PowerOff_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/restart": {
@@ -5023,7 +5747,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Restart_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Restart_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Restart_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Restart_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/start": {
@@ -5072,7 +5804,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Start_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Start_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Start_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Start_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/redeploy": {
@@ -5121,7 +5861,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Redeploy_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Redeploy_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Redeploy_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Redeploy_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/performMaintenance": {
@@ -5170,7 +5918,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_PerformMaintenance_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_PerformMaintenance_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_PerformMaintenance_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_PerformMaintenance_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/manualupgrade": {
@@ -5219,7 +5975,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_UpdateInstances_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_UpdateInstances_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_UpdateInstances_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_UpdateInstances_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/reimage": {
@@ -5268,7 +6032,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_Reimage_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Reimage_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_Reimage_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_Reimage_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/reimageall": {
@@ -5317,7 +6089,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_ReimageAll_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ReimageAll_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ReimageAll_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ReimageAll_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/rollingUpgrades/cancel": {
@@ -5357,7 +6137,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetRollingUpgrades_Cancel_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_Cancel_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetRollingUpgrades_Cancel_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_Cancel_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/osRollingUpgrade": {
@@ -5397,7 +6185,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetRollingUpgrades_StartOSUpgrade_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_StartOSUpgrade_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetRollingUpgrades_StartOSUpgrade_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_StartOSUpgrade_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/extensionRollingUpgrade": {
@@ -5441,6 +6237,12 @@
         "x-ms-examples": {
           "Start an extension rolling upgrade.": {
             "$ref": "./examples/VMScaleSetExtensionRollingUpgrade.json"
+          },
+          "VirtualMachineScaleSetRollingUpgrades_StartExtensionUpgrade_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_StartExtensionUpgrade_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetRollingUpgrades_StartExtensionUpgrade_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_StartExtensionUpgrade_MinimumSet_Gen.json"
           }
         }
       }
@@ -5480,6 +6282,14 @@
             "schema": {
               "$ref": "#/definitions/RollingUpgradeStatusInfo"
             }
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSetRollingUpgrades_GetLatest_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_GetLatest_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetRollingUpgrades_GetLatest_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetRollingUpgrades_GetLatest_MinimumSet_Gen.json"
           }
         }
       }
@@ -5527,6 +6337,14 @@
               "$ref": "#/definitions/RecoveryWalkResponse"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_ForceRecoveryServiceFabricPlatformUpdateDomainWalk_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ForceRecoveryServiceFabricPlatformUpdateDomainWalk_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ForceRecoveryServiceFabricPlatformUpdateDomainWalk_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ForceRecoveryServiceFabricPlatformUpdateDomainWalk_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -5571,6 +6389,14 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_ConvertToSinglePlacementGroup_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ConvertToSinglePlacementGroup_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_ConvertToSinglePlacementGroup_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_ConvertToSinglePlacementGroup_MinimumSet_Gen.json"
           }
         }
       }
@@ -5621,7 +6447,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSets_SetOrchestrationServiceState_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_SetOrchestrationServiceState_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSets_SetOrchestrationServiceState_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSets_SetOrchestrationServiceState_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/extensions/{vmExtensionName}": {
@@ -5700,6 +6534,12 @@
         "x-ms-examples": {
           "Create VirtualMachineScaleSet VM extension.": {
             "$ref": "./examples/CreateOrUpdateVirtualMachineScaleSetVMExtensions.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_CreateOrUpdate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_CreateOrUpdate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_CreateOrUpdate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_CreateOrUpdate_MinimumSet_Gen.json"
           }
         }
       },
@@ -5772,6 +6612,12 @@
         "x-ms-examples": {
           "Update VirtualMachineScaleSet VM extension.": {
             "$ref": "./examples/UpdateVirtualMachineScaleSetVMExtensions.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Update_MinimumSet_Gen.json"
           }
         }
       },
@@ -5838,6 +6684,12 @@
         "x-ms-examples": {
           "Delete VirtualMachineScaleSet VM extension.": {
             "$ref": "./examples/DeleteVirtualMachineScaleSetVMExtensions.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -5907,6 +6759,12 @@
         "x-ms-examples": {
           "Get VirtualMachineScaleSet VM extension.": {
             "$ref": "./examples/GetVirtualMachineScaleSetVMExtensions.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_Get_MinimumSet_Gen.json"
           }
         }
       }
@@ -5971,6 +6829,12 @@
         "x-ms-examples": {
           "List extensions in Vmss instance.": {
             "$ref": "./examples/ListVirtualMachineScaleSetVMExtensions.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMExtensions_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMExtensions_List_MinimumSet_Gen.json"
           }
         }
       }
@@ -6028,7 +6892,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Reimage_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Reimage_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Reimage_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Reimage_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/reimageall": {
@@ -6075,7 +6947,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_ReimageAll_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_ReimageAll_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_ReimageAll_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_ReimageAll_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/deallocate": {
@@ -6122,7 +7002,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Deallocate_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Deallocate_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Deallocate_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Deallocate_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}": {
@@ -6184,7 +7072,15 @@
             }
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Update_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Update_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Update_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Update_MinimumSet_Gen.json"
+          }
+        }
       },
       "delete": {
         "tags": [
@@ -6243,6 +7139,12 @@
         "x-ms-examples": {
           "Force Delete a virtual machine from a VM scale set.": {
             "$ref": "./examples/ForceDeleteVirtualMachineScaleSetVM.json"
+          },
+          "VirtualMachineScaleSetVMs_Delete_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Delete_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Delete_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Delete_MinimumSet_Gen.json"
           }
         }
       },
@@ -6302,6 +7204,14 @@
               "$ref": "#/definitions/VirtualMachineScaleSetVM"
             }
           }
+        },
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Get_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Get_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Get_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Get_MinimumSet_Gen.json"
+          }
         }
       }
     },
@@ -6352,6 +7262,12 @@
         "x-ms-examples": {
           "Get instance view of a virtual machine from a VM scale set placed on a dedicated host group through automatic placement.": {
             "$ref": "./examples/GetVirtualMachineScaleSetVMInstanceViewAutoPlacedOnDedicatedHostGroup.json"
+          },
+          "VirtualMachineScaleSetVMs_GetInstanceView_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_GetInstanceView_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_GetInstanceView_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_GetInstanceView_MinimumSet_Gen.json"
           }
         }
       }
@@ -6417,7 +7333,15 @@
         "x-ms-pageable": {
           "nextLinkName": "nextLink"
         },
-        "x-ms-odata": "#/definitions/VirtualMachineScaleSetVM"
+        "x-ms-odata": "#/definitions/VirtualMachineScaleSetVM",
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_List_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_List_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_List_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_List_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/poweroff": {
@@ -6472,7 +7396,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_PowerOff_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_PowerOff_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_PowerOff_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_PowerOff_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/restart": {
@@ -6519,7 +7451,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Restart_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Restart_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Restart_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Restart_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/start": {
@@ -6566,7 +7506,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Start_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Start_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Start_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Start_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/redeploy": {
@@ -6613,7 +7561,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_Redeploy_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Redeploy_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_Redeploy_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_Redeploy_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualmachines/{instanceId}/retrieveBootDiagnosticsData": {
@@ -6678,6 +7634,12 @@
         "x-ms-examples": {
           "RetrieveBootDiagnosticsData of a virtual machine.": {
             "$ref": "./examples/RetrieveBootDiagnosticsDataVMScaleSetVM.json"
+          },
+          "VirtualMachineScaleSetVMs_RetrieveBootDiagnosticsData_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_RetrieveBootDiagnosticsData_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_RetrieveBootDiagnosticsData_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_RetrieveBootDiagnosticsData_MinimumSet_Gen.json"
           }
         }
       }
@@ -6726,7 +7688,15 @@
             "description": "Accepted"
           }
         },
-        "x-ms-long-running-operation": true
+        "x-ms-long-running-operation": true,
+        "x-ms-examples": {
+          "VirtualMachineScaleSetVMs_PerformMaintenance_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_PerformMaintenance_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_PerformMaintenance_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_PerformMaintenance_MinimumSet_Gen.json"
+          }
+        }
       }
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachineScaleSets/{vmScaleSetName}/virtualMachines/{instanceId}/simulateEviction": {
@@ -6774,6 +7744,12 @@
         "x-ms-examples": {
           "Simulate Eviction a virtual machine.": {
             "$ref": "./examples/SimulateEvictionOfVmssVM.json"
+          },
+          "VirtualMachineScaleSetVMs_SimulateEviction_MaximumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_SimulateEviction_MaximumSet_Gen.json"
+          },
+          "VirtualMachineScaleSetVMs_SimulateEviction_MinimumSet_Gen": {
+            "$ref": "./examples/VirtualMachineScaleSetVMs_SimulateEviction_MinimumSet_Gen.json"
           }
         }
       }
@@ -6787,6 +7763,12 @@
         "x-ms-examples": {
           "Export logs which contain all Api requests made to Compute Resource Provider within the given time period broken down by intervals.": {
             "$ref": "./examples/LogAnalyticsRequestRateByInterval.json"
+          },
+          "LogAnalytics_ExportRequestRateByInterval_MaximumSet_Gen": {
+            "$ref": "./examples/LogAnalytics_ExportRequestRateByInterval_MaximumSet_Gen.json"
+          },
+          "LogAnalytics_ExportRequestRateByInterval_MinimumSet_Gen": {
+            "$ref": "./examples/LogAnalytics_ExportRequestRateByInterval_MinimumSet_Gen.json"
           }
         },
         "description": "Export logs that show Api requests made by this subscription in the given time window to show throttling activities.",
@@ -6841,6 +7823,12 @@
         "x-ms-examples": {
           "Export logs which contain all throttled Api requests made to Compute Resource Provider within the given time period.": {
             "$ref": "./examples/LogAnalyticsThrottledRequests.json"
+          },
+          "LogAnalytics_ExportThrottledRequests_MaximumSet_Gen": {
+            "$ref": "./examples/LogAnalytics_ExportThrottledRequests_MaximumSet_Gen.json"
+          },
+          "LogAnalytics_ExportThrottledRequests_MinimumSet_Gen": {
+            "$ref": "./examples/LogAnalytics_ExportThrottledRequests_MinimumSet_Gen.json"
           }
         },
         "description": "Export logs that show total throttled Api requests for this subscription in the given time window.",
