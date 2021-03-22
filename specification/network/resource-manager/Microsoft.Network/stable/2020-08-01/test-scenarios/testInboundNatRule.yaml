@@ -1,0 +1,16 @@
+scope: ResourceGroup
+
+prepareSteps:
+  - armTemplateDeployment: template.json
+
+testScenarios:
+  - description: InboundNatRule
+    steps:
+      - exampleFile: ../examples/InboundNatRuleCreate.json
+        replace:
+          - pathInBody: properties.frontendIPConfiguration.id
+            to: $(frontendIPConfigurationId)
+      - exampleFile: ../examples/InboundNatRuleGet.json
+      - exampleFile: ../examples/InboundNatRuleDelete.json
+
+
