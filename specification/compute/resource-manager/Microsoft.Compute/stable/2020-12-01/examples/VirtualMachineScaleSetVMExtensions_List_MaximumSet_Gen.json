@@ -1,0 +1,96 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaaaaa",
+    "$expand": "aaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "properties": {
+              "autoUpgradeMinorVersion": true,
+              "provisioningState": "Succeeded",
+              "publisher": "extPublisher",
+              "type": "extType",
+              "typeHandlerVersion": "1.2",
+              "settings": {},
+              "forceUpdateTag": "aaaaaaaaaaaaa",
+              "enableAutomaticUpgrade": true,
+              "protectedSettings": {},
+              "instanceView": {
+                "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "type": "aaaaaaaaaaaaaaaaaaaaaa",
+                "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+                "substatuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ],
+                "statuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ]
+              }
+            },
+            "name": "myVMExtension",
+            "type": "Microsoft.Compute/virtualMachineScaleSets/virtualMachines/extensions",
+            "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachineScaleSets/myvmScaleSet/virtualMachines/0/extensions/myVMExtension"
+          },
+          {
+            "properties": {
+              "autoUpgradeMinorVersion": true,
+              "provisioningState": "Succeeded",
+              "publisher": "extPublisher1",
+              "type": "extType1",
+              "typeHandlerVersion": "1.0",
+              "settings": {},
+              "forceUpdateTag": "aaaaaaaaaaaaaaaaaaaaa",
+              "enableAutomaticUpgrade": true,
+              "protectedSettings": {},
+              "instanceView": {
+                "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "type": "aaaaaaaaaaaaaaaaaaaaaa",
+                "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+                "substatuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ],
+                "statuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ]
+              }
+            },
+            "name": "myVMExtension1",
+            "type": "Microsoft.Compute/virtualMachineScaleSets/virtualMachines/extensions",
+            "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachineScaleSets/myvmScaleSet/virtualMachines/0/extensions/myVMExtension1"
+          }
+        ]
+      }
+    }
+  }
+}

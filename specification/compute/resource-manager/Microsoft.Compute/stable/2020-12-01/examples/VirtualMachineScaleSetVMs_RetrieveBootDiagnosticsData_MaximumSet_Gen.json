@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaaaaaa",
+    "sasUriExpirationTimeInMinutes": 30,
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "consoleScreenshotBlobUri": "https://storageuri/vm.screenshot.bmp?{sasKey}",
+        "serialConsoleLogBlobUri": "https://storageuri/vm.serialconsole.log?{sasKey}"
+      }
+    }
+  }
+}

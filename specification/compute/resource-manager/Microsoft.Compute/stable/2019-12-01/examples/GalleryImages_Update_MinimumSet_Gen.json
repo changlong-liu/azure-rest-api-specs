@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaa",
+    "galleryImageName": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "galleryImage": {}
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

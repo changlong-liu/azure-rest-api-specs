@@ -1,0 +1,31 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmName": "aaaaaaaa",
+    "parameters": {
+      "vhdPrefix": "aaaaaaaaaaaaaaaaaaaaa",
+      "destinationContainerName": "aaaaaaaaaaaaaaaaaaaaaa",
+      "overwriteVhds": true
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "$schema": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "contentVersion": "aaaaaaaaaaaaa",
+        "parameters": {},
+        "resources": [
+          {}
+        ],
+        "id": "aaaaaa"
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    }
+  }
+}

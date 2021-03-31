@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "snapshotName": "mySnapshot2",
+    "api-version": "2020-09-30"
+  },
+  "responses": {
+    "200": {},
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    }
+  }
+}

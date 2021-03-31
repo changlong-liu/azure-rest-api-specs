@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmName": "aaaaaaaaaaaaaaaaaa",
+    "vmExtensionName": "aaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "west us"
+      }
+    }
+  }
+}

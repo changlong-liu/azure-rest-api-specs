@@ -1,0 +1,106 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "galleryImageName": "aaaaaaaa",
+    "galleryImageVersionName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "$expand": "ReplicationStatus",
+    "api-version": "2019-12-01"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "publishingProfile": {
+            "targetRegions": [
+              {
+                "name": "West US",
+                "regionalReplicaCount": 1,
+                "encryption": {
+                  "osDiskImage": {
+                    "diskEncryptionSetId": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSet/myDiskEncryptionSet"
+                  },
+                  "dataDiskImages": [
+                    {
+                      "lun": 28,
+                      "diskEncryptionSetId": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSet/myOtherDiskEncryptionSet"
+                    },
+                    {
+                      "lun": 1,
+                      "diskEncryptionSetId": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSet/myDiskEncryptionSet"
+                    }
+                  ]
+                },
+                "storageAccountType": "Standard_LRS"
+              },
+              {
+                "name": "East US",
+                "regionalReplicaCount": 2,
+                "storageAccountType": "Standard_ZRS",
+                "encryption": {
+                  "osDiskImage": {
+                    "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  "dataDiskImages": [
+                    {
+                      "lun": 1,
+                      "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaaaa"
+                    }
+                  ]
+                }
+              }
+            ],
+            "replicaCount": 1,
+            "excludeFromLatest": true,
+            "publishedDate": "2018-01-01T00:00:00Z",
+            "endOfLifeDate": "2021-03-18T02:33:52.285Z",
+            "storageAccountType": "Standard_LRS"
+          },
+          "storageProfile": {
+            "source": {
+              "id": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroup}/providers/Microsoft.Compute/images/{imageName}"
+            },
+            "osDiskImage": {
+              "sizeInGB": 10,
+              "hostCaching": "ReadOnly",
+              "source": {
+                "id": "aaaaaaaaaaaaaaaaaaa"
+              }
+            },
+            "dataDiskImages": [
+              {
+                "lun": 1,
+                "sizeInGB": 10,
+                "hostCaching": "None",
+                "source": {
+                  "id": "aaaaaaaaaaaaaaaaaaa"
+                }
+              }
+            ]
+          },
+          "provisioningState": "Updating",
+          "replicationStatus": {
+            "aggregatedState": "Unknown",
+            "summary": [
+              {
+                "region": "aaaaaaaaa",
+                "state": "Unknown",
+                "details": "aaaaaaaaaaaaaaaaaa",
+                "progress": 7
+              }
+            ]
+          }
+        },
+        "id": "aaaaaaaaaaaaaaaaa",
+        "name": "1.0.0",
+        "type": "aaaaaa",
+        "tags": {
+          "key6564": "aaaaaaaaaaaaaaaaaaaa",
+          "key6545": "aaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

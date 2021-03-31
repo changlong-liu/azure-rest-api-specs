@@ -1,0 +1,44 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskAccessName": "myDiskAccess",
+    "api-version": "2020-09-30"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "privateEndpointConnections": [
+            {
+              "properties": {
+                "privateEndpoint": {
+                  "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Network/privateEndpoints/myPrivateEndpoint"
+                },
+                "privateLinkServiceConnectionState": {
+                  "status": "Pending",
+                  "description": "a",
+                  "actionsRequired": "aaaaaaaaaa"
+                },
+                "provisioningState": "Succeeded"
+              },
+              "id": "aaaaaaaaaaaaaaaa",
+              "name": "aaaaaaaaaaaaaaaaaaaaaa",
+              "type": "aa"
+            }
+          ],
+          "provisioningState": "Succeeded",
+          "timeCreated": "2020-05-01T04:41:35.079872+00:00"
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourcegroup/providers/Microsoft.Compute/diskAccesses/myDiskAccess",
+        "name": "myDiskAccess",
+        "type": "Microsoft.Compute/diskAccesses",
+        "tags": {
+          "key9760": "aaaaaaaaaaaaaaaaaaaaa",
+          "key4605": "aa"
+        }
+      }
+    }
+  }
+}

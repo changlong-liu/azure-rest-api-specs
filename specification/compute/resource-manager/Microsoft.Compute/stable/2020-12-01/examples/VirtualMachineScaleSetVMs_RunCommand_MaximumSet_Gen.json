@@ -1,0 +1,48 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmScaleSetName": "aaaaaaaaaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "parameters": {
+      "commandId": "RunPowerShellScript",
+      "script": [
+        "aaaaaaaaaaaaaaaa"
+      ],
+      "parameters": [
+        {
+          "name": "aaaaa",
+          "value": "aaaaaaaaaaa"
+        }
+      ]
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "code": "ComponentStatus/StdOut/succeeded",
+            "level": "Info",
+            "displayStatus": "Provisioning succeeded",
+            "message": "This is a sample script with parameters value1 value2",
+            "time": "2021-03-18T02:31:16.317Z"
+          },
+          {
+            "code": "ComponentStatus/StdErr/succeeded",
+            "level": "Info",
+            "displayStatus": "Provisioning succeeded",
+            "message": "aaaaaaaaaaa",
+            "time": "2021-03-18T02:31:16.317Z"
+          }
+        ]
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    }
+  }
+}

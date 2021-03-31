@@ -1,0 +1,62 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "hostGroupName": "aaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "location": "westus",
+            "tags": {},
+            "properties": {
+              "platformFaultDomain": 1,
+              "autoReplaceOnFailure": true,
+              "hostId": "{GUID}",
+              "virtualMachines": [
+                {
+                  "id": "aaaaaaaaaaaaaa"
+                }
+              ],
+              "licenseType": "Windows_Server_Hybrid",
+              "provisioningTime": "2021-03-18T02:07:49.162Z",
+              "provisioningState": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "instanceView": {
+                "assetId": "aaaaaaaaaaaaaaaaaa",
+                "availableCapacity": {
+                  "allocatableVMs": [
+                    {
+                      "vmSize": "aaaaaaaaaaaaaaaa",
+                      "count": 2
+                    }
+                  ]
+                },
+                "statuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ]
+              }
+            },
+            "sku": {
+              "name": "DSv3-Type1",
+              "tier": "aaaaaaaaaaaaa",
+              "capacity": 3
+            },
+            "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/HostGroups/myDedicatedHostGroup/hosts/myDedicatedHost",
+            "name": "myDedicatedHost",
+            "type": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "nextLink": "aaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

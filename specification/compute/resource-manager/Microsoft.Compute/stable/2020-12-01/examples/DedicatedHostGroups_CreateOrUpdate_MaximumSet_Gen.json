@@ -1,0 +1,136 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "hostGroupName": "aaaaaaaaaaaaaaaaaaaaaa",
+    "parameters": {
+      "location": "westus",
+      "tags": {},
+      "zones": [
+        "1"
+      ],
+      "properties": {
+        "platformFaultDomainCount": 3,
+        "supportAutomaticPlacement": true,
+        "instanceView": {
+          "hosts": [
+            {
+              "availableCapacity": {
+                "allocatableVMs": [
+                  {
+                    "vmSize": "aaaaaaaaaaaaaaaa",
+                    "count": 2
+                  }
+                ]
+              },
+              "statuses": [
+                {
+                  "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                  "level": "Info",
+                  "displayStatus": "aaaaaaaaaaaaaa",
+                  "message": "aaaaaaaaaaaaaaaa",
+                  "time": "2021-03-18T02:07:49.157Z"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "westus",
+        "tags": {},
+        "zones": [
+          "1"
+        ],
+        "properties": {
+          "platformFaultDomainCount": 3,
+          "supportAutomaticPlacement": true,
+          "hosts": [
+            {
+              "id": "aaaaaaaaaaaaaa"
+            }
+          ],
+          "instanceView": {
+            "hosts": [
+              {
+                "name": "aaaaaaaa",
+                "assetId": "aaaaaaa",
+                "availableCapacity": {
+                  "allocatableVMs": [
+                    {
+                      "vmSize": "aaaaaaaaaaaaaaaa",
+                      "count": 2
+                    }
+                  ]
+                },
+                "statuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/HostGroups/myDedicatedHostGroup",
+        "name": "myDedicatedHostGroup",
+        "type": "aaaaaa"
+      }
+    },
+    "201": {
+      "body": {
+        "location": "westus",
+        "tags": {},
+        "zones": [
+          "1"
+        ],
+        "properties": {
+          "platformFaultDomainCount": 3,
+          "supportAutomaticPlacement": true,
+          "hosts": [
+            {
+              "id": "aaaaaaaaaaaaaa"
+            }
+          ],
+          "instanceView": {
+            "hosts": [
+              {
+                "name": "aaaaaaaa",
+                "assetId": "aaaaaaa",
+                "availableCapacity": {
+                  "allocatableVMs": [
+                    {
+                      "vmSize": "aaaaaaaaaaaaaaaa",
+                      "count": 2
+                    }
+                  ]
+                },
+                "statuses": [
+                  {
+                    "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:07:49.157Z"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/HostGroups/myDedicatedHostGroup",
+        "name": "myDedicatedHostGroup",
+        "type": "aaaaaa"
+      }
+    }
+  }
+}

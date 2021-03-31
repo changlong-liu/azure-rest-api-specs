@@ -1,0 +1,185 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmName": "aaaaaaaaaaaaaa",
+    "runCommandName": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "runCommand": {
+      "location": "West US",
+      "properties": {
+        "source": {
+          "script": "Write-Host Hello World!",
+          "scriptUri": "aaaaaaaaaaaaaaa",
+          "commandId": "aaaaaaaaaaaaa"
+        },
+        "parameters": [
+          {
+            "name": "param1",
+            "value": "value1"
+          },
+          {
+            "name": "param2",
+            "value": "value2"
+          }
+        ],
+        "asyncExecution": true,
+        "runAsUser": "user1",
+        "runAsPassword": "<runAsPassword>",
+        "timeoutInSeconds": 3600,
+        "protectedParameters": [
+          {
+            "name": "aaaaa",
+            "value": "aaaaaaaaaaa"
+          }
+        ],
+        "outputBlobUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "errorBlobUri": "aaaaaaa",
+        "instanceView": {
+          "executionState": "Unknown",
+          "executionMessage": "aaaaaaaaaaaaaaaaaa",
+          "exitCode": 27,
+          "output": "aaaaaaaaaaaaaaa",
+          "error": "aaaaaaaaaa",
+          "startTime": "2021-03-18T02:31:16.318Z",
+          "endTime": "2021-03-18T02:31:16.318Z",
+          "statuses": [
+            {
+              "code": "a",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:31:16.318Z"
+            }
+          ]
+        }
+      },
+      "tags": {
+        "key3216": "a"
+      }
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "source": {
+            "script": "Write-Host Hello World!",
+            "scriptUri": "aaaaaaaaaaaaaaa",
+            "commandId": "aaaaaaaaaaaaa"
+          },
+          "parameters": [
+            {
+              "name": "param1",
+              "value": "value1"
+            },
+            {
+              "name": "param2",
+              "value": "value2"
+            }
+          ],
+          "asyncExecution": true,
+          "runAsUser": "user1",
+          "runAsPassword": "<runAsPassword>",
+          "timeoutInSeconds": 3600,
+          "protectedParameters": [
+            {
+              "name": "aaaaa",
+              "value": "aaaaaaaaaaa"
+            }
+          ],
+          "outputBlobUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "errorBlobUri": "aaaaaaa",
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "executionState": "Unknown",
+            "executionMessage": "aaaaaaaaaaaaaaaaaa",
+            "exitCode": 27,
+            "output": "aaaaaaaaaaaaaaa",
+            "error": "aaaaaaaaaa",
+            "startTime": "2021-03-18T02:31:16.318Z",
+            "endTime": "2021-03-18T02:31:16.318Z",
+            "statuses": [
+              {
+                "code": "a",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:31:16.318Z"
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM/runCommands/myRunCommand",
+        "name": "myRunCommand",
+        "type": "Microsoft.Compute/virtualMachines/runCommands",
+        "tags": {
+          "key3216": "a"
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "source": {
+            "script": "Write-Host Hello World!",
+            "scriptUri": "aaaaaaaaaaaaaaa",
+            "commandId": "aaaaaaaaaaaaa"
+          },
+          "parameters": [
+            {
+              "name": "param1",
+              "value": "value1"
+            },
+            {
+              "name": "param2",
+              "value": "value2"
+            }
+          ],
+          "asyncExecution": true,
+          "runAsUser": "user1",
+          "runAsPassword": "<runAsPassword>",
+          "timeoutInSeconds": 3600,
+          "protectedParameters": [
+            {
+              "name": "aaaaa",
+              "value": "aaaaaaaaaaa"
+            }
+          ],
+          "outputBlobUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "errorBlobUri": "aaaaaaa",
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "executionState": "Unknown",
+            "executionMessage": "aaaaaaaaaaaaaaaaaa",
+            "exitCode": 27,
+            "output": "aaaaaaaaaaaaaaa",
+            "error": "aaaaaaaaaa",
+            "startTime": "2021-03-18T02:31:16.318Z",
+            "endTime": "2021-03-18T02:31:16.318Z",
+            "statuses": [
+              {
+                "code": "a",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:31:16.318Z"
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM/runCommands/myRunCommand",
+        "name": "myRunCommand",
+        "type": "Microsoft.Compute/virtualMachines/runCommands",
+        "tags": {
+          "key3216": "a"
+        }
+      }
+    }
+  }
+}

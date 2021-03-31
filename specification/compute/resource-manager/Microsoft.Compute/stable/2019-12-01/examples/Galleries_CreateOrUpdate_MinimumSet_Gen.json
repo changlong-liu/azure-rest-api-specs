@@ -1,0 +1,34 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "gallery": {
+      "location": "West US"
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US"
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

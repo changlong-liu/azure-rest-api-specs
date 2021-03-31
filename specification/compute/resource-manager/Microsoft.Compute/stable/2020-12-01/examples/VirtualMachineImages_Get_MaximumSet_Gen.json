@@ -1,0 +1,55 @@
+{
+  "parameters": {
+    "location": "aaaaaa",
+    "publisherName": "aaaaaaaaaaaaaaaaaaaaaa",
+    "offer": "aaaaaaaaaaaaaaa",
+    "skus": "aaaaaaaaaaaaaaaaaa",
+    "version": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "properties": {
+          "plan": {
+            "publisher": "aaaaa",
+            "name": "aaaaaa",
+            "product": "a"
+          },
+          "osDiskImage": {
+            "operatingSystem": "Windows"
+          },
+          "dataDiskImages": [
+            {
+              "lun": 13
+            }
+          ],
+          "automaticOSUpgradeProperties": {
+            "automaticOSUpgradeSupported": true
+          },
+          "hyperVGeneration": "V1",
+          "disallowed": {
+            "vmDiskType": "None"
+          },
+          "features": [
+            {
+              "name": "aaaaaaaaaaaaaaaa",
+              "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ]
+        },
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "location": "aaaaaaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key7607": "aaaaaaaaaaaaaa"
+        },
+        "extendedLocation": {
+          "name": "aaaa",
+          "type": "EdgeZone"
+        },
+        "id": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

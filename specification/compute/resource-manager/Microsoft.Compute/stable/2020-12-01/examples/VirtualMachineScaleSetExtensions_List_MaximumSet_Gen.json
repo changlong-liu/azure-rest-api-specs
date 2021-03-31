@@ -1,0 +1,36 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "name": "{extension-name}",
+            "properties": {
+              "autoUpgradeMinorVersion": true,
+              "publisher": "{extension-Publisher}",
+              "type": "{extension-Type}",
+              "typeHandlerVersion": "{handler-version}",
+              "settings": {},
+              "forceUpdateTag": "aaaaaaaaaaaaaaaa",
+              "enableAutomaticUpgrade": true,
+              "protectedSettings": {},
+              "provisioningState": "aaaaaaaaaaaaaaaaaaaaa",
+              "provisionAfterExtensions": [
+                "aaaaaaaaaaaaaaa"
+              ]
+            },
+            "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "id": "aaaaaaaaaaaaaaaaaaaa"
+          }
+        ],
+        "nextLink": "aaaaaaaaa"
+      }
+    }
+  }
+}

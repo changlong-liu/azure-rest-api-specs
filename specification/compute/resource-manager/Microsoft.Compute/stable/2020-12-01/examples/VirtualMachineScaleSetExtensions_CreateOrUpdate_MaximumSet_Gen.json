@@ -1,0 +1,72 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaa",
+    "vmssExtensionName": "aaaaaaaaaaaaaaaaaaaaaaa",
+    "extensionParameters": {
+      "name": "{extension-name}",
+      "properties": {
+        "autoUpgradeMinorVersion": true,
+        "publisher": "{extension-Publisher}",
+        "type": "{extension-Type}",
+        "typeHandlerVersion": "{handler-version}",
+        "settings": {},
+        "forceUpdateTag": "aaaaaaaaaaaaaaaa",
+        "enableAutomaticUpgrade": true,
+        "protectedSettings": {},
+        "provisionAfterExtensions": [
+          "aaaaaaaaaaaaaaa"
+        ]
+      }
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "{extension-name}",
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "publisher": "{extension-Publisher}",
+          "type": "{extension-Type}",
+          "typeHandlerVersion": "{handler-version}",
+          "settings": {},
+          "forceUpdateTag": "aaaaaaaaaaaaaaaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "provisioningState": "aaaaaaaaaaaaaaaaaaaaa",
+          "provisionAfterExtensions": [
+            "aaaaaaaaaaaaaaa"
+          ]
+        },
+        "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "id": "aaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "name": "{extension-name}",
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "publisher": "{extension-Publisher}",
+          "type": "{extension-Type}",
+          "typeHandlerVersion": "{handler-version}",
+          "settings": {},
+          "forceUpdateTag": "aaaaaaaaaaaaaaaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "provisioningState": "aaaaaaaaaaaaaaaaaaaaa",
+          "provisionAfterExtensions": [
+            "aaaaaaaaaaaaaaa"
+          ]
+        },
+        "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "id": "aaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

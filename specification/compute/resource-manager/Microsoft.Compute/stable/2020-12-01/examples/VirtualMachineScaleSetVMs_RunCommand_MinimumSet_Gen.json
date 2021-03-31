@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmScaleSetName": "aaaaaaaa",
+    "instanceId": "aaaaaaaa",
+    "parameters": {
+      "commandId": "RunPowerShellScript"
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {}
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    }
+  }
+}

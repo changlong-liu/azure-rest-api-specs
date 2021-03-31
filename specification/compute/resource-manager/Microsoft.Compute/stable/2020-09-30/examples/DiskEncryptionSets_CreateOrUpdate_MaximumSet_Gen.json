@@ -1,0 +1,102 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskEncryptionSetName": "myDiskEncryptionSet",
+    "api-version": "2020-09-30",
+    "diskEncryptionSet": {
+      "location": "West US",
+      "identity": {
+        "type": "SystemAssigned"
+      },
+      "properties": {
+        "activeKey": {
+          "sourceVault": {
+            "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.KeyVault/vaults/myVMVault"
+          },
+          "keyUrl": "https://myvmvault.vault-int.azure-int.net/keys/{key}"
+        },
+        "encryptionType": "EncryptionAtRestWithCustomerKey"
+      },
+      "tags": {
+        "key8502": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "key9582": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "identity": {
+          "type": "SystemAssigned",
+          "principalId": "aaaaaaaaaaaaa",
+          "tenantId": "aaaaaaaaaaaa"
+        },
+        "properties": {
+          "activeKey": {
+            "sourceVault": {
+              "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.KeyVault/vaults/myVMVault"
+            },
+            "keyUrl": "https://myvmvault.vault-int.azure-int.net/keys/{key}"
+          },
+          "encryptionType": "EncryptionAtRestWithCustomerKey",
+          "previousKeys": [
+            {
+              "sourceVault": {
+                "id": "aaaaaaaaaaaaaaaaa"
+              },
+              "keyUrl": "aaaaaaaaaaaaaaaa"
+            }
+          ],
+          "provisioningState": "aaaaaaaaaaaaaaaaaa"
+        },
+        "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "name": "myDiskEncryptionSet",
+        "type": "aaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key8502": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "key9582": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "identity": {
+          "type": "SystemAssigned",
+          "principalId": "aaaaaaaaaaaaa",
+          "tenantId": "aaaaaaaaaaaa"
+        },
+        "properties": {
+          "activeKey": {
+            "sourceVault": {
+              "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.KeyVault/vaults/myVMVault"
+            },
+            "keyUrl": "https://myvmvault.vault-int.azure-int.net/keys/{key}"
+          },
+          "encryptionType": "EncryptionAtRestWithCustomerKey",
+          "previousKeys": [
+            {
+              "sourceVault": {
+                "id": "aaaaaaaaaaaaaaaaa"
+              },
+              "keyUrl": "aaaaaaaaaaaaaaaa"
+            }
+          ],
+          "provisioningState": "aaaaaaaaaaaaaaaaaa"
+        },
+        "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "name": "myDiskEncryptionSet",
+        "type": "aaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key8502": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "key9582": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

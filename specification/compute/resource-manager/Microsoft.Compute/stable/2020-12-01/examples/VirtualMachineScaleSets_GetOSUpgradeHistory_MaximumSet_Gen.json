@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "properties": {
+              "runningStatus": {
+                "code": "RollingForward",
+                "startTime": "2021-03-18T02:22:48.969Z",
+                "endTime": "2021-03-18T02:22:48.970Z"
+              },
+              "progress": {
+                "successfulInstanceCount": 30,
+                "failedInstanceCount": 29,
+                "inProgressInstanceCount": 25,
+                "pendingInstanceCount": 23
+              },
+              "error": {
+                "details": [
+                  {
+                    "code": "aaa",
+                    "target": "aaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaaaaa"
+                  }
+                ],
+                "innererror": {
+                  "exceptiontype": "aa",
+                  "errordetail": "aa"
+                },
+                "code": "aaaaaaa",
+                "target": "aaaaaaaaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              },
+              "startedBy": "Unknown",
+              "targetImageReference": {
+                "sku": "2016-Datacenter",
+                "publisher": "MicrosoftWindowsServer",
+                "version": "latest",
+                "offer": "WindowsServer",
+                "exactVersion": "aaaaaaaaaaaaaaaaaaaaaaa",
+                "id": "aaaa"
+              },
+              "rollbackInfo": {
+                "successfullyRolledbackInstanceCount": 2,
+                "failedRolledbackInstanceCount": 2,
+                "rollbackError": {
+                  "details": [
+                    {
+                      "code": "aaa",
+                      "target": "aaaaaaaa",
+                      "message": "aaaaaaaaaaaaaaaaaaa"
+                    }
+                  ],
+                  "innererror": {
+                    "exceptiontype": "aa",
+                    "errordetail": "aa"
+                  },
+                  "code": "aaaaaaa",
+                  "target": "aaaaaaaaaaaaaaaaaaaa",
+                  "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                }
+              }
+            },
+            "type": "aaaaaaaaaaaaaaaaaaaa",
+            "location": "aaa"
+          }
+        ],
+        "nextLink": "aaaaaaaaa"
+      }
+    }
+  }
+}

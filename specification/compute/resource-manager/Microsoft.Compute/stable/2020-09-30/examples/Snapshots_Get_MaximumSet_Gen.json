@@ -1,0 +1,91 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "snapshotName": "mySnapshot2",
+    "api-version": "2020-09-30"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "creationData": {
+            "createOption": "Copy",
+            "sourceResourceId": "subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/snapshots/mySnapshot1",
+            "storageAccountId": "aaaaaaaaaaaa",
+            "imageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "galleryImageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "sourceUri": "a",
+            "sourceUniqueId": "aaaaaaaaaaaa",
+            "uploadSizeBytes": 25,
+            "logicalSectorSize": 11
+          },
+          "timeCreated": "2021-03-18T02:31:44.401Z",
+          "osType": "Windows",
+          "hyperVGeneration": "V1",
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaa",
+            "product": "aa",
+            "promotionCode": "aaaaaaaaaa"
+          },
+          "diskSizeGB": 27,
+          "diskSizeBytes": 2,
+          "diskState": "Unattached",
+          "uniqueId": "aaaaaaaaaa",
+          "encryptionSettingsCollection": {
+            "enabled": true,
+            "encryptionSettings": [
+              {
+                "diskEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "secretUrl": "aaaaaaaaaaaaaa"
+                },
+                "keyEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "keyUrl": "aaaa"
+                }
+              }
+            ],
+            "encryptionSettingsVersion": "aaaaaaaaaaaa"
+          },
+          "provisioningState": "Updating",
+          "incremental": true,
+          "encryption": {
+            "diskEncryptionSetId": "aaaaaa",
+            "type": "EncryptionAtRestWithPlatformKey"
+          },
+          "networkAccessPolicy": "AllowAll",
+          "diskAccessId": "aaaa"
+        },
+        "managedBy": "aaaaaaaaa",
+        "sku": {
+          "name": "Standard_LRS",
+          "tier": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "extendedLocation": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "EdgeZone"
+        },
+        "id": "aaaaaa",
+        "name": "mySnapshot2",
+        "type": "aaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key3517": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "key1341": "aaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

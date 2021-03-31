@@ -1,0 +1,92 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaaaaaaaa",
+    "galleryApplicationName": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "galleryApplication": {
+      "location": "West US",
+      "properties": {
+        "eula": "This is the gallery application EULA.",
+        "privacyStatementUri": "myPrivacyStatementUri}",
+        "releaseNoteUri": "myReleaseNoteUri",
+        "supportedOSType": "Windows",
+        "description": "aaa",
+        "endOfLifeDate": "2021-03-18T02:33:52.335Z"
+      },
+      "tags": {
+        "key1362": "aa",
+        "key6386": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "eula": "This is the gallery application EULA.",
+          "privacyStatementUri": "myPrivacyStatementUri}",
+          "releaseNoteUri": "myReleaseNoteUri",
+          "supportedOSType": "Windows",
+          "description": "aaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.335Z"
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/galleries/myGalleryName/applications/myGalleryApplicationName",
+        "name": "myGalleryApplicationName",
+        "type": "Microsoft.Compute/galleries",
+        "tags": {
+          "key1362": "aa",
+          "key6386": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "eula": "This is the gallery application EULA.",
+          "privacyStatementUri": "myPrivacyStatementUri}",
+          "releaseNoteUri": "myReleaseNoteUri",
+          "supportedOSType": "Windows",
+          "description": "aaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.335Z"
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/galleries/myGalleryName/applications/myGalleryApplicationName",
+        "name": "myGalleryApplicationName",
+        "type": "Microsoft.Compute/galleries",
+        "tags": {
+          "key1362": "aa",
+          "key6386": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "eula": "This is the gallery application EULA.",
+          "privacyStatementUri": "myPrivacyStatementUri}",
+          "releaseNoteUri": "myReleaseNoteUri",
+          "supportedOSType": "Windows",
+          "description": "aaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.335Z"
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/galleries/myGalleryName/applications/myGalleryApplicationName",
+        "name": "myGalleryApplicationName",
+        "type": "Microsoft.Compute/galleries",
+        "tags": {
+          "key1362": "aa",
+          "key6386": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

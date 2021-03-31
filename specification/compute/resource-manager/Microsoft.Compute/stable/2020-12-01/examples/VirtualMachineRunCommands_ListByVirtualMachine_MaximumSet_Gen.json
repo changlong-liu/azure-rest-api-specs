@@ -1,0 +1,73 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmName": "aaaaaaaaa",
+    "$expand": "aaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "name": "myRunCommand",
+            "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM/runCommands/myRunCommand",
+            "type": "Microsoft.Compute/virtualMachines/runCommands",
+            "location": "westus",
+            "tags": {},
+            "properties": {
+              "source": {
+                "script": "Write-Host Hello World!",
+                "scriptUri": "aaaaaaaaaaaaaaaaaaa",
+                "commandId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              },
+              "parameters": [
+                {
+                  "name": "param1",
+                  "value": "value1"
+                },
+                {
+                  "name": "param2",
+                  "value": "value2"
+                }
+              ],
+              "asyncExecution": true,
+              "runAsUser": "user1",
+              "timeoutInSeconds": 14,
+              "provisioningState": "Succeeded",
+              "protectedParameters": [
+                {
+                  "name": "aaaaa",
+                  "value": "aaaaaaaaaaa"
+                }
+              ],
+              "runAsPassword": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "outputBlobUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "errorBlobUri": "aaaaaaaaa",
+              "instanceView": {
+                "executionState": "Unknown",
+                "executionMessage": "aaaaaaaaaaaaaaaaaa",
+                "exitCode": 27,
+                "output": "aaaaaaaaaaaaaaa",
+                "error": "aaaaaaaaaa",
+                "startTime": "2021-03-18T02:31:16.318Z",
+                "endTime": "2021-03-18T02:31:16.318Z",
+                "statuses": [
+                  {
+                    "code": "a",
+                    "level": "Info",
+                    "displayStatus": "aaaaaaaaaaaaaaaaaaaaaaa",
+                    "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "time": "2021-03-18T02:31:16.318Z"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "nextLink": "aaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

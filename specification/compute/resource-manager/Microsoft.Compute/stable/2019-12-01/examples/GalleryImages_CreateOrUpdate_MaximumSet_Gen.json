@@ -1,0 +1,203 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaaaaa",
+    "galleryImageName": "a",
+    "api-version": "2019-12-01",
+    "galleryImage": {
+      "location": "West US",
+      "properties": {
+        "osType": "Windows",
+        "osState": "Generalized",
+        "hyperVGeneration": "V1",
+        "identifier": {
+          "publisher": "myPublisherName",
+          "offer": "myOfferName",
+          "sku": "mySkuName"
+        },
+        "description": "aaaaaaaaaa",
+        "eula": "aaaaaaaaaaaaaaaa",
+        "privacyStatementUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "releaseNoteUri": "aaaaaaaaaaaaaaa",
+        "endOfLifeDate": "2021-03-18T02:33:52.283Z",
+        "recommended": {
+          "vCPUs": {
+            "min": 19,
+            "max": 17
+          },
+          "memory": {
+            "min": 19,
+            "max": 17
+          }
+        },
+        "disallowed": {
+          "diskTypes": [
+            "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          ]
+        },
+        "purchasePlan": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "publisher": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "product": "aaaa"
+        }
+      },
+      "tags": {
+        "key171": "aaaaaaaaaaaaaaaaaaaa",
+        "key7480": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "osType": "Windows",
+          "osState": "Generalized",
+          "hyperVGeneration": "V1",
+          "identifier": {
+            "publisher": "myPublisherName",
+            "offer": "myOfferName",
+            "sku": "mySkuName"
+          },
+          "description": "aaaaaaaaaa",
+          "eula": "aaaaaaaaaaaaaaaa",
+          "privacyStatementUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "releaseNoteUri": "aaaaaaaaaaaaaaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.283Z",
+          "recommended": {
+            "vCPUs": {
+              "min": 19,
+              "max": 17
+            },
+            "memory": {
+              "min": 19,
+              "max": 17
+            }
+          },
+          "disallowed": {
+            "diskTypes": [
+              "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            ]
+          },
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "product": "aaaa"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaa",
+        "name": "myGalleryImageName",
+        "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key171": "aaaaaaaaaaaaaaaaaaaa",
+          "key7480": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "osType": "Windows",
+          "osState": "Generalized",
+          "hyperVGeneration": "V1",
+          "identifier": {
+            "publisher": "myPublisherName",
+            "offer": "myOfferName",
+            "sku": "mySkuName"
+          },
+          "description": "aaaaaaaaaa",
+          "eula": "aaaaaaaaaaaaaaaa",
+          "privacyStatementUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "releaseNoteUri": "aaaaaaaaaaaaaaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.283Z",
+          "recommended": {
+            "vCPUs": {
+              "min": 19,
+              "max": 17
+            },
+            "memory": {
+              "min": 19,
+              "max": 17
+            }
+          },
+          "disallowed": {
+            "diskTypes": [
+              "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            ]
+          },
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "product": "aaaa"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaa",
+        "name": "myGalleryImageName",
+        "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key171": "aaaaaaaaaaaaaaaaaaaa",
+          "key7480": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "osType": "Windows",
+          "osState": "Generalized",
+          "hyperVGeneration": "V1",
+          "identifier": {
+            "publisher": "myPublisherName",
+            "offer": "myOfferName",
+            "sku": "mySkuName"
+          },
+          "description": "aaaaaaaaaa",
+          "eula": "aaaaaaaaaaaaaaaa",
+          "privacyStatementUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "releaseNoteUri": "aaaaaaaaaaaaaaa",
+          "endOfLifeDate": "2021-03-18T02:33:52.283Z",
+          "recommended": {
+            "vCPUs": {
+              "min": 19,
+              "max": 17
+            },
+            "memory": {
+              "min": 19,
+              "max": 17
+            }
+          },
+          "disallowed": {
+            "diskTypes": [
+              "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            ]
+          },
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaaaaaaaaaaaaaaaaaaaaa",
+            "product": "aaaa"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaa",
+        "name": "myGalleryImageName",
+        "type": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tags": {
+          "key171": "aaaaaaaaaaaaaaaaaaaa",
+          "key7480": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

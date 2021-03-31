@@ -1,0 +1,48 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "availabilitySetName": "aaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "westus",
+        "properties": {
+          "platformFaultDomainCount": 2,
+          "platformUpdateDomainCount": 20,
+          "virtualMachines": [
+            {
+              "id": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}"
+            }
+          ],
+          "proximityPlacementGroup": {
+            "id": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}"
+          },
+          "statuses": [
+            {
+              "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:07:49.157Z"
+            }
+          ]
+        },
+        "sku": {
+          "name": "Classic",
+          "tier": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "capacity": 28
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/availabilitySets/myAvailabilitySet",
+        "name": "myAvailabilitySet",
+        "type": "Microsoft.Compute/availabilitySets",
+        "tags": {
+          "key6548": "aaaaaaaaaaaaa",
+          "key3274": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

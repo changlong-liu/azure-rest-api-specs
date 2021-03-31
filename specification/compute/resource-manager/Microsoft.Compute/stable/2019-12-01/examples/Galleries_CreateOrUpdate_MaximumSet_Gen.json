@@ -1,0 +1,84 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "gallery": {
+      "location": "West US",
+      "properties": {
+        "description": "aaaa",
+        "identifier": {}
+      },
+      "tags": {
+        "key3909": "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "key5100": "aaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "description": "aaaa",
+          "identifier": {
+            "uniqueName": "{subscription-id}-MYGALLERYNAME"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaaaaaa",
+        "name": "myGalleryName",
+        "type": "aaaaaaaaaaaa",
+        "tags": {
+          "key3909": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "key5100": "aaaaaa"
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "description": "aaaa",
+          "identifier": {
+            "uniqueName": "{subscription-id}-MYGALLERYNAME"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaaaaaa",
+        "name": "myGalleryName",
+        "type": "aaaaaaaaaaaa",
+        "tags": {
+          "key3909": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "key5100": "aaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "description": "aaaa",
+          "identifier": {
+            "uniqueName": "{subscription-id}-MYGALLERYNAME"
+          },
+          "provisioningState": "Updating"
+        },
+        "id": "aaaaaaaaaaa",
+        "name": "myGalleryName",
+        "type": "aaaaaaaaaaaa",
+        "tags": {
+          "key3909": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "key5100": "aaaaaa"
+        }
+      }
+    }
+  }
+}

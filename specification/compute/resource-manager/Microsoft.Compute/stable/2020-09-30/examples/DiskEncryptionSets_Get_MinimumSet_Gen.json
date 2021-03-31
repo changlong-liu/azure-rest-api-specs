@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskEncryptionSetName": "myDiskEncryptionSet",
+    "api-version": "2020-09-30"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

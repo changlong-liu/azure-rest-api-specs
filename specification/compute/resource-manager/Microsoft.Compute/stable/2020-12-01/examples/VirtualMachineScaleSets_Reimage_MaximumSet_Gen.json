@@ -1,0 +1,22 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "vmScaleSetReimageInput": {
+      "instanceIds": [
+        "aaaaaaa"
+      ],
+      "tempDisk": true
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {},
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    }
+  }
+}

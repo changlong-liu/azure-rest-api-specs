@@ -1,0 +1,25 @@
+{
+  "parameters": {
+    "location": "..",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "unit": "Count",
+            "currentValue": 21,
+            "limit": 29,
+            "name": {
+              "value": "aaa",
+              "localizedValue": "aaaaaaaaaa"
+            }
+          }
+        ],
+        "nextLink": "aaaaa"
+      }
+    }
+  }
+}

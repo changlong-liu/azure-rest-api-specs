@@ -1,0 +1,245 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaaaaaaaaaaaa",
+    "galleryApplicationName": "aaaaaaaaaaaaaaaaaaa",
+    "galleryApplicationVersionName": "aaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "galleryApplicationVersion": {
+      "location": "West US",
+      "properties": {
+        "publishingProfile": {
+          "source": {
+            "mediaLink": "https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}",
+            "defaultConfigurationLink": "aaa"
+          },
+          "manageActions": {
+            "install": "powershell -command \"Expand-Archive -Path package.zip -DestinationPath C:\\package\"",
+            "remove": "del C:\\package ",
+            "update": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "targetRegions": [
+            {
+              "name": "West US",
+              "regionalReplicaCount": 1,
+              "storageAccountType": "Standard_LRS",
+              "encryption": {
+                "osDiskImage": {
+                  "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaa"
+                },
+                "dataDiskImages": [
+                  {
+                    "lun": 1,
+                    "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaaaa"
+                  }
+                ]
+              }
+            }
+          ],
+          "replicaCount": 1,
+          "endOfLifeDate": "2019-07-01T07:00:00Z",
+          "storageAccountType": "Standard_LRS",
+          "enableHealthCheck": true,
+          "excludeFromLatest": true
+        },
+        "replicationStatus": {}
+      },
+      "tags": {
+        "key5743": "aaaaaaaaaaaaa",
+        "key3957": "aaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "publishingProfile": {
+            "source": {
+              "mediaLink": "https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}",
+              "defaultConfigurationLink": "aaa"
+            },
+            "manageActions": {
+              "install": "powershell -command \"Expand-Archive -Path package.zip -DestinationPath C:\\package\"",
+              "remove": "del C:\\package ",
+              "update": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "targetRegions": [
+              {
+                "name": "West US",
+                "regionalReplicaCount": 1,
+                "storageAccountType": "Standard_LRS",
+                "encryption": {
+                  "osDiskImage": {
+                    "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  "dataDiskImages": [
+                    {
+                      "lun": 1,
+                      "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaaaa"
+                    }
+                  ]
+                }
+              }
+            ],
+            "replicaCount": 1,
+            "endOfLifeDate": "2019-07-01T07:00:00Z",
+            "storageAccountType": "Standard_LRS",
+            "enableHealthCheck": true,
+            "excludeFromLatest": true,
+            "publishedDate": "2019-06-21T17:13:57.5972568+00:00"
+          },
+          "provisioningState": "Updating",
+          "replicationStatus": {
+            "aggregatedState": "Unknown",
+            "summary": [
+              {
+                "region": "aaaaaaaaa",
+                "state": "Unknown",
+                "details": "aaaaaaaaaaaaaaaaaa",
+                "progress": 7
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/01523d7c-60da-455e-adef-521b547922c4/resourceGroups/galleryPsTestRg98/providers/Microsoft.Compute/galleries/galleryPsTestGallery6165/applications/galleryPsTestGalleryApplication7825/versions/1.0.0",
+        "name": "1.0.0",
+        "type": "Microsoft.Compute/galleries/applications/versions",
+        "tags": {
+          "key5743": "aaaaaaaaaaaaa",
+          "key3957": "aaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "publishingProfile": {
+            "source": {
+              "mediaLink": "https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}",
+              "defaultConfigurationLink": "aaa"
+            },
+            "manageActions": {
+              "install": "powershell -command \"Expand-Archive -Path package.zip -DestinationPath C:\\package\"",
+              "remove": "del C:\\package ",
+              "update": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "targetRegions": [
+              {
+                "name": "West US",
+                "regionalReplicaCount": 1,
+                "storageAccountType": "Standard_LRS",
+                "encryption": {
+                  "osDiskImage": {
+                    "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  "dataDiskImages": [
+                    {
+                      "lun": 1,
+                      "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaaaa"
+                    }
+                  ]
+                }
+              }
+            ],
+            "replicaCount": 1,
+            "endOfLifeDate": "2019-07-01T07:00:00Z",
+            "storageAccountType": "Standard_LRS",
+            "enableHealthCheck": true,
+            "excludeFromLatest": true,
+            "publishedDate": "2019-06-21T17:13:57.5972568+00:00"
+          },
+          "provisioningState": "Updating",
+          "replicationStatus": {
+            "aggregatedState": "Unknown",
+            "summary": [
+              {
+                "region": "aaaaaaaaa",
+                "state": "Unknown",
+                "details": "aaaaaaaaaaaaaaaaaa",
+                "progress": 7
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/01523d7c-60da-455e-adef-521b547922c4/resourceGroups/galleryPsTestRg98/providers/Microsoft.Compute/galleries/galleryPsTestGallery6165/applications/galleryPsTestGalleryApplication7825/versions/1.0.0",
+        "name": "1.0.0",
+        "type": "Microsoft.Compute/galleries/applications/versions",
+        "tags": {
+          "key5743": "aaaaaaaaaaaaa",
+          "key3957": "aaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "publishingProfile": {
+            "source": {
+              "mediaLink": "https://mystorageaccount.blob.core.windows.net/mycontainer/package.zip?{sasKey}",
+              "defaultConfigurationLink": "aaa"
+            },
+            "manageActions": {
+              "install": "powershell -command \"Expand-Archive -Path package.zip -DestinationPath C:\\package\"",
+              "remove": "del C:\\package ",
+              "update": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            },
+            "targetRegions": [
+              {
+                "name": "West US",
+                "regionalReplicaCount": 1,
+                "storageAccountType": "Standard_LRS",
+                "encryption": {
+                  "osDiskImage": {
+                    "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  "dataDiskImages": [
+                    {
+                      "lun": 1,
+                      "diskEncryptionSetId": "aaaaaaaaaaaaaaaaaaaaaaaa"
+                    }
+                  ]
+                }
+              }
+            ],
+            "replicaCount": 1,
+            "endOfLifeDate": "2019-07-01T07:00:00Z",
+            "storageAccountType": "Standard_LRS",
+            "enableHealthCheck": true,
+            "excludeFromLatest": true,
+            "publishedDate": "2019-06-21T17:13:57.5972568+00:00"
+          },
+          "provisioningState": "Updating",
+          "replicationStatus": {
+            "aggregatedState": "Unknown",
+            "summary": [
+              {
+                "region": "aaaaaaaaa",
+                "state": "Unknown",
+                "details": "aaaaaaaaaaaaaaaaaa",
+                "progress": 7
+              }
+            ]
+          }
+        },
+        "id": "/subscriptions/01523d7c-60da-455e-adef-521b547922c4/resourceGroups/galleryPsTestRg98/providers/Microsoft.Compute/galleries/galleryPsTestGallery6165/applications/galleryPsTestGalleryApplication7825/versions/1.0.0",
+        "name": "1.0.0",
+        "type": "Microsoft.Compute/galleries/applications/versions",
+        "tags": {
+          "key5743": "aaaaaaaaaaaaa",
+          "key3957": "aaaaaaaaaaaaaaaaaaaa"
+        }
+      }
+    }
+  }
+}

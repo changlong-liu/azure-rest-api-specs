@@ -1,0 +1,20 @@
+{
+  "parameters": {
+    "location": "aaaaaaaaaaaaaaa",
+    "edgeZone": "aaaaaaaaaaaaaaaaaaa",
+    "publisherName": "aaaaaaaaaaaa",
+    "offer": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "skus": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "version": "aaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "location": "aaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "location": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "publisherName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "offer": "aaaaaaa",
+    "skus": "aaaaaaaaa",
+    "version": "aaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "location": "aaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

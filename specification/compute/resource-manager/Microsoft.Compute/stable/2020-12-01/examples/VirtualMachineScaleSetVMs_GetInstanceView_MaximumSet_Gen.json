@@ -1,0 +1,146 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "platformUpdateDomain": 25,
+        "platformFaultDomain": 4,
+        "rdpThumbPrint": "aaaa",
+        "vmAgent": {
+          "vmAgentVersion": "Unknown",
+          "statuses": [
+            {
+              "code": "ProvisioningState/Unavailable",
+              "level": "Warning",
+              "displayStatus": "Not Ready",
+              "message": "VM status blob is found but not yet populated.",
+              "time": "2020-12-01T05:00:32+00:00"
+            }
+          ],
+          "extensionHandlers": [
+            {
+              "type": "aaaaaaaaaaaaaaa",
+              "typeHandlerVersion": "aaaaaaaaaaa",
+              "status": {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            }
+          ]
+        },
+        "disks": [
+          {
+            "name": "myOSDisk",
+            "encryptionSettings": [
+              {
+                "diskEncryptionKey": {
+                  "secretUrl": "aaaaaaaaaaaaaaaaa",
+                  "sourceVault": {
+                    "id": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}"
+                  }
+                },
+                "keyEncryptionKey": {
+                  "keyUrl": "aaaaaaaaaaaaaaaaaaaaaaaa",
+                  "sourceVault": {
+                    "id": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/availabilitySets/{availabilitySetName}"
+                  }
+                },
+                "enabled": true
+              }
+            ],
+            "statuses": [
+              {
+                "code": "ProvisioningState/succeeded",
+                "level": "Info",
+                "displayStatus": "Provisioning succeeded",
+                "message": "aaaa",
+                "time": "2020-12-01T04:58:58.0882815+00:00"
+              }
+            ]
+          }
+        ],
+        "extensions": [
+          {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaaaaaaaaaaaaaaaaaa",
+            "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+            "substatuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ],
+            "statuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ]
+          }
+        ],
+        "assignedHost": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/hostGroups/myHostGroup/hosts/myHost",
+        "bootDiagnostics": {
+          "consoleScreenshotBlobUri": "aaaaaaaaaa",
+          "serialConsoleLogBlobUri": "aaaaaaaaaa",
+          "status": {
+            "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "level": "Info",
+            "displayStatus": "aaaaaaaaaaaaaa",
+            "message": "aaaaaaaaaaaaaaaa",
+            "time": "2021-03-18T02:07:49.157Z"
+          }
+        },
+        "statuses": [
+          {
+            "code": "ProvisioningState/succeeded",
+            "level": "Info",
+            "displayStatus": "Provisioning succeeded",
+            "message": "aaaaa",
+            "time": "2020-06-05T04:59:58.1852966+00:00"
+          },
+          {
+            "code": "PowerState/running",
+            "level": "Info",
+            "displayStatus": "VM running",
+            "message": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "time": "2021-03-18T02:07:49.257Z"
+          }
+        ],
+        "maintenanceRedeployStatus": {
+          "isCustomerInitiatedMaintenanceAllowed": true,
+          "preMaintenanceWindowStartTime": "2021-03-18T02:07:49.165Z",
+          "preMaintenanceWindowEndTime": "2021-03-18T02:07:49.165Z",
+          "maintenanceWindowStartTime": "2021-03-18T02:07:49.165Z",
+          "maintenanceWindowEndTime": "2021-03-18T02:07:49.165Z",
+          "lastOperationResultCode": "None",
+          "lastOperationMessage": "aaaaa"
+        },
+        "vmHealth": {
+          "status": {
+            "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "level": "Info",
+            "displayStatus": "aaaaaaaaaaaaaa",
+            "message": "aaaaaaaaaaaaaaaa",
+            "time": "2021-03-18T02:07:49.157Z"
+          }
+        },
+        "placementGroupId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    }
+  }
+}

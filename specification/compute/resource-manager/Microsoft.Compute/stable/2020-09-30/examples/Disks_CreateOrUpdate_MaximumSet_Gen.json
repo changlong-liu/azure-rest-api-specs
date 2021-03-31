@@ -1,0 +1,286 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskName": "myDisk",
+    "api-version": "2020-09-30",
+    "disk": {
+      "location": "West US",
+      "properties": {
+        "creationData": {
+          "createOption": "Empty",
+          "storageAccountId": "aaaaaaaaa",
+          "imageReference": {
+            "id": "aaaaaaaaaaaaaaaa",
+            "lun": 21
+          },
+          "galleryImageReference": {
+            "id": "aaaaaaaaaaaaaaaa",
+            "lun": 21
+          },
+          "sourceUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "sourceResourceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "uploadSizeBytes": 3,
+          "logicalSectorSize": 25
+        },
+        "diskSizeGB": 200,
+        "osType": "Windows",
+        "hyperVGeneration": "V1",
+        "purchasePlan": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "publisher": "aaaaa",
+          "product": "aa",
+          "promotionCode": "aaaaaaaaaa"
+        },
+        "encryptionSettingsCollection": {
+          "enabled": true,
+          "encryptionSettings": [
+            {
+              "diskEncryptionKey": {
+                "sourceVault": {
+                  "id": "aaaaaaaaaaaaaaaaa"
+                },
+                "secretUrl": "aaaaaaaaaaaaaa"
+              },
+              "keyEncryptionKey": {
+                "sourceVault": {
+                  "id": "aaaaaaaaaaaaaaaaa"
+                },
+                "keyUrl": "aaaa"
+              }
+            }
+          ],
+          "encryptionSettingsVersion": "aaaaaaaaaaaa"
+        },
+        "diskIOPSReadWrite": 15,
+        "diskMBpsReadWrite": 25,
+        "diskIOPSReadOnly": 26,
+        "diskMBpsReadOnly": 2,
+        "encryption": {
+          "diskEncryptionSetId": "aaaaaa",
+          "type": "EncryptionAtRestWithPlatformKey"
+        },
+        "maxShares": 10,
+        "networkAccessPolicy": "AllowAll",
+        "diskAccessId": "aaaaaaa",
+        "tier": "aaaaaaaaaaaa",
+        "burstingEnabled": true
+      },
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "zones": [
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      ],
+      "extendedLocation": {
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "type": "EdgeZone"
+      },
+      "tags": {
+        "key4034": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "key613": "aaaaaa"
+      }
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US",
+        "properties": {
+          "creationData": {
+            "createOption": "Empty",
+            "storageAccountId": "aaaaaaaaa",
+            "imageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "galleryImageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "sourceUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "sourceResourceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "sourceUniqueId": "aaaaa",
+            "uploadSizeBytes": 3,
+            "logicalSectorSize": 25
+          },
+          "diskSizeGB": 200,
+          "timeCreated": "2021-03-18T02:31:44.347Z",
+          "osType": "Windows",
+          "hyperVGeneration": "V1",
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaa",
+            "product": "aa",
+            "promotionCode": "aaaaaaaaaa"
+          },
+          "diskSizeBytes": 20,
+          "uniqueId": "aaaaaaaaaaaaaaaaaaa",
+          "encryptionSettingsCollection": {
+            "enabled": true,
+            "encryptionSettings": [
+              {
+                "diskEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "secretUrl": "aaaaaaaaaaaaaa"
+                },
+                "keyEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "keyUrl": "aaaa"
+                }
+              }
+            ],
+            "encryptionSettingsVersion": "aaaaaaaaaaaa"
+          },
+          "provisioningState": "Updating",
+          "diskIOPSReadWrite": 15,
+          "diskMBpsReadWrite": 25,
+          "diskIOPSReadOnly": 26,
+          "diskMBpsReadOnly": 2,
+          "diskState": "Unattached",
+          "encryption": {
+            "diskEncryptionSetId": "aaaaaa",
+            "type": "EncryptionAtRestWithPlatformKey"
+          },
+          "maxShares": 10,
+          "shareInfo": [
+            {
+              "vmUri": "aaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ],
+          "networkAccessPolicy": "AllowAll",
+          "diskAccessId": "aaaaaaa",
+          "tier": "aaaaaaaaaaaa",
+          "burstingEnabled": true
+        },
+        "managedBy": "aaa",
+        "managedByExtended": [
+          "aaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "sku": {
+          "name": "Standard_LRS",
+          "tier": "aaaaaaaaaaaaaaaaa"
+        },
+        "zones": [
+          "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "extendedLocation": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "EdgeZone"
+        },
+        "id": "aaaaaaa",
+        "name": "myDisk",
+        "type": "aaaaaaa",
+        "tags": {
+          "key4034": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "key613": "aaaaaa"
+        }
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US",
+        "properties": {
+          "creationData": {
+            "createOption": "Empty",
+            "storageAccountId": "aaaaaaaaa",
+            "imageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "galleryImageReference": {
+              "id": "aaaaaaaaaaaaaaaa",
+              "lun": 21
+            },
+            "sourceUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "sourceResourceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "sourceUniqueId": "aaaaa",
+            "uploadSizeBytes": 3,
+            "logicalSectorSize": 25
+          },
+          "diskSizeGB": 200,
+          "timeCreated": "2021-03-18T02:31:44.347Z",
+          "osType": "Windows",
+          "hyperVGeneration": "V1",
+          "purchasePlan": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+            "publisher": "aaaaa",
+            "product": "aa",
+            "promotionCode": "aaaaaaaaaa"
+          },
+          "diskSizeBytes": 20,
+          "uniqueId": "aaaaaaaaaaaaaaaaaaa",
+          "encryptionSettingsCollection": {
+            "enabled": true,
+            "encryptionSettings": [
+              {
+                "diskEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "secretUrl": "aaaaaaaaaaaaaa"
+                },
+                "keyEncryptionKey": {
+                  "sourceVault": {
+                    "id": "aaaaaaaaaaaaaaaaa"
+                  },
+                  "keyUrl": "aaaa"
+                }
+              }
+            ],
+            "encryptionSettingsVersion": "aaaaaaaaaaaa"
+          },
+          "provisioningState": "Updating",
+          "diskIOPSReadWrite": 15,
+          "diskMBpsReadWrite": 25,
+          "diskIOPSReadOnly": 26,
+          "diskMBpsReadOnly": 2,
+          "diskState": "Unattached",
+          "encryption": {
+            "diskEncryptionSetId": "aaaaaa",
+            "type": "EncryptionAtRestWithPlatformKey"
+          },
+          "maxShares": 10,
+          "shareInfo": [
+            {
+              "vmUri": "aaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ],
+          "networkAccessPolicy": "AllowAll",
+          "diskAccessId": "aaaaaaa",
+          "tier": "aaaaaaaaaaaa",
+          "burstingEnabled": true
+        },
+        "managedBy": "aaa",
+        "managedByExtended": [
+          "aaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "sku": {
+          "name": "Standard_LRS",
+          "tier": "aaaaaaaaaaaaaaaaa"
+        },
+        "zones": [
+          "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "extendedLocation": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "EdgeZone"
+        },
+        "id": "aaaaaaa",
+        "name": "myDisk",
+        "type": "aaaaaaa",
+        "tags": {
+          "key4034": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "key613": "aaaaaa"
+        }
+      }
+    }
+  }
+}

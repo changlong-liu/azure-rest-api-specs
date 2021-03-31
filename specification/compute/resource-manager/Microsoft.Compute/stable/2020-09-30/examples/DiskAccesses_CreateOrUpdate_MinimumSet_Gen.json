@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskAccessName": "myDiskAccess",
+    "api-version": "2020-09-30",
+    "diskAccess": {
+      "location": "West US"
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

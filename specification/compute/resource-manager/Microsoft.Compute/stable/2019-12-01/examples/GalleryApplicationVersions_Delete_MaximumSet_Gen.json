@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaaaaaa",
+    "galleryApplicationName": "aaa",
+    "galleryApplicationVersionName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01"
+  },
+  "responses": {
+    "200": {},
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      }
+    },
+    "204": {}
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "hostGroupName": "aaaaaaaaaaaaaaaa",
+    "hostName": "aaaaaaa",
+    "parameters": {
+      "location": "westus",
+      "sku": {}
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "westus",
+        "sku": {}
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "westus",
+        "sku": {}
+      }
+    }
+  }
+}

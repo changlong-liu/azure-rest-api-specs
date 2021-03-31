@@ -1,0 +1,71 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "proximityPlacementGroupName": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "parameters": {
+      "tags": {}
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "westus",
+        "properties": {
+          "proximityPlacementGroupType": "Standard",
+          "virtualMachines": [
+            {
+              "colocationStatus": {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              },
+              "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ],
+          "virtualMachineScaleSets": [
+            {
+              "colocationStatus": {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              },
+              "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ],
+          "availabilitySets": [
+            {
+              "colocationStatus": {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              },
+              "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          ],
+          "colocationStatus": {
+            "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "level": "Info",
+            "displayStatus": "aaaaaaaaaaaaaa",
+            "message": "aaaaaaaaaaaaaaaa",
+            "time": "2021-03-18T02:07:49.157Z"
+          }
+        },
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/proximityPlacementGroups/myProximityPlacementGroup",
+        "name": "myProximityPlacementGroup",
+        "type": "Microsoft.Compute/proximityPlacementGroups",
+        "tags": {
+          "key6400": "aaaaaaaaaa",
+          "key4895": "aaaaaaaaa"
+        }
+      }
+    }
+  }
+}

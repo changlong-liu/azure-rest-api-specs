@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rgdisk",
+    "diskAccessName": "myDiskAccess",
+    "privateEndpointConnectionName": "myPrivateEndpointConnection",
+    "api-version": "2020-09-30",
+    "privateEndpointConnection": {}
+  },
+  "responses": {
+    "200": {
+      "body": {}
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {}
+    }
+  }
+}

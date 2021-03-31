@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "location": "westus",
+            "properties": {
+              "publicKey": "{ssh-rsa public key}"
+            },
+            "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/sshPublicKeys/mySshPublicKeyName",
+            "name": "mySshPublicKeyName",
+            "type": "aaaaaaaaaaaaaa",
+            "tags": {
+              "key5392": "aaaaaaaa",
+              "key1037": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+            }
+          }
+        ],
+        "nextLink": "aaaaaaaaaaaa"
+      }
+    }
+  }
+}

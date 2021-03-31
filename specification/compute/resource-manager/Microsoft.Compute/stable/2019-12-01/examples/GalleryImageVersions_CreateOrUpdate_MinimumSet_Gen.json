@@ -1,0 +1,36 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaaaa",
+    "galleryImageName": "aaaaa",
+    "galleryImageVersionName": "aaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2019-12-01",
+    "galleryImageVersion": {
+      "location": "West US"
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US"
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

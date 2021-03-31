@@ -1,0 +1,137 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmName": "aaaaaaaaaaaaaaaaaaaaa",
+    "vmExtensionName": "a",
+    "extensionParameters": {
+      "location": "west us",
+      "tags": {},
+      "properties": {
+        "autoUpgradeMinorVersion": true,
+        "publisher": "Microsoft.Compute",
+        "type": "CustomScriptExtension",
+        "typeHandlerVersion": "1.9",
+        "settings": {},
+        "forceUpdateTag": "aaa",
+        "enableAutomaticUpgrade": true,
+        "protectedSettings": {},
+        "instanceView": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "aaaaaaaaaaaaaaaaaaaaaa",
+          "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+          "substatuses": [
+            {
+              "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:07:49.157Z"
+            }
+          ],
+          "statuses": [
+            {
+              "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:07:49.157Z"
+            }
+          ]
+        }
+      }
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "CustomScriptExtension-DSC",
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM/extensions/CustomScriptExtension-DSC",
+        "type": "Microsoft.Compute/virtualMachines/extensions",
+        "location": "west us",
+        "tags": {},
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "provisioningState": "Succeeded",
+          "publisher": "Microsoft.Compute",
+          "type": "CustomScriptExtension",
+          "typeHandlerVersion": "1.9",
+          "settings": {},
+          "forceUpdateTag": "aaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "instanceView": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaaaaaaaaaaaaaaaaaa",
+            "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+            "substatuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ],
+            "statuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "name": "CustomScriptExtension-DSC",
+        "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM/extensions/CustomScriptExtension-DSC",
+        "type": "Microsoft.Compute/virtualMachines/extensions",
+        "location": "west us",
+        "tags": {},
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "provisioningState": "Succeeded",
+          "publisher": "Microsoft.Compute",
+          "type": "CustomScriptExtension",
+          "typeHandlerVersion": "1.9",
+          "settings": {},
+          "forceUpdateTag": "aaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "instanceView": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaaaaaaaaaaaaaaaaaa",
+            "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+            "substatuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ],
+            "statuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

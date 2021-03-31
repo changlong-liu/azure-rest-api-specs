@@ -1,0 +1,34 @@
+{
+  "parameters": {
+    "location": "aaaa",
+    "publisherName": "aaaaaaaaaaaaaaaaa",
+    "type": "aaaaaaaa",
+    "$filter": "aaaaa",
+    "$top": 10,
+    "$orderby": "aaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": [
+        {
+          "properties": {
+            "operatingSystem": "aaaaaaaaaaaaaaaaa",
+            "computeRole": "aaaa",
+            "handlerSchema": "aaaaaaaaaaaaaaaaaaa",
+            "vmScaleSetEnabled": true,
+            "supportsMultipleExtensions": true
+          },
+          "id": "aaaaaaaaaaaaaaaaa",
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "aaaaaaaaaaaaaaaaaaaa",
+          "location": "aaaaaaaaaaaaaaaa",
+          "tags": {
+            "key8861": "aaaaaaa"
+          }
+        }
+      ]
+    }
+  }
+}

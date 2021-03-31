@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}",
+    "platformUpdateDomain": 3
+  },
+  "responses": {
+    "200": {
+      "body": {}
+    }
+  }
+}

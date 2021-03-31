@@ -1,0 +1,30 @@
+{
+  "parameters": {
+    "location": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "publisherName": "aaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": [
+        {
+          "properties": {
+            "operatingSystem": "aaaaaaaaaaaaaaaaa",
+            "computeRole": "aaaa",
+            "handlerSchema": "aaaaaaaaaaaaaaaaaaa",
+            "vmScaleSetEnabled": true,
+            "supportsMultipleExtensions": true
+          },
+          "id": "aaaaaaaaaaaaaaaaa",
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "aaaaaaaaaaaaaaaaaaaa",
+          "location": "aaaaaaaaaaaaaaaa",
+          "tags": {
+            "key8861": "aaaaaaa"
+          }
+        }
+      ]
+    }
+  }
+}

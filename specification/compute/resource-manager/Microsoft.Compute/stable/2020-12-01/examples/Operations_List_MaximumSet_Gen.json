@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "api-version": "2020-12-01"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "origin": "aaaaaaaaaa",
+            "name": "aaaaaaaaaa",
+            "display": {
+              "operation": "aaaaaaaaaaaaaaaaaaaaaaa",
+              "resource": "aaaaaaaaaaaaaaaaaaaaaaaa",
+              "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "provider": "aaaaaaaaaaaaaaa"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

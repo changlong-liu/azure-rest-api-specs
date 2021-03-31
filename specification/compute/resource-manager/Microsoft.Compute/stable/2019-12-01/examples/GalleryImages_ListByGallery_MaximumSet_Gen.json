@@ -1,0 +1,62 @@
+{
+  "parameters": {
+    "subscriptionId": "{subscription-id}",
+    "resourceGroupName": "rggallery",
+    "galleryName": "aaaaaa",
+    "api-version": "2019-12-01"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "properties": {
+              "osType": "Windows",
+              "osState": "Generalized",
+              "hyperVGeneration": "V1",
+              "identifier": {
+                "publisher": "myPublisherName",
+                "offer": "myOfferName",
+                "sku": "mySkuName"
+              },
+              "provisioningState": "Succeeded",
+              "description": "aaaa",
+              "eula": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+              "privacyStatementUri": "aaaaaaaa",
+              "releaseNoteUri": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "endOfLifeDate": "2021-03-18T02:33:52.340Z",
+              "recommended": {
+                "vCPUs": {
+                  "min": 19,
+                  "max": 17
+                },
+                "memory": {
+                  "min": 19,
+                  "max": 17
+                }
+              },
+              "disallowed": {
+                "diskTypes": [
+                  "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                ]
+              },
+              "purchasePlan": {
+                "name": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "publisher": "aaaaaaaaaaaaaaaaaaaaaaaa",
+                "product": "aaaa"
+              }
+            },
+            "location": "West US",
+            "name": "myGalleryImageName",
+            "id": "aaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaa",
+            "tags": {
+              "key2690": "aaaaaaaaaa"
+            }
+          }
+        ],
+        "nextLink": "http://svchost:99/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/galleries/myGalleryName/images?$skiptoken={token}/Subscriptions/{subscriptionId}/ResourceGroups/myResourceGroup/galleries/myGalleryName/images/myGalleryImageName"
+      }
+    }
+  }
+}

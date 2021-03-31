@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "proximityPlacementGroupName": "aaaaaaaaaaaaaaaaaaaaaaa",
+    "parameters": {
+      "location": "westus"
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "westus"
+      }
+    },
+    "201": {
+      "body": {
+        "location": "westus"
+      }
+    }
+  }
+}

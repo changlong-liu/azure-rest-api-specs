@@ -1,0 +1,27 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaaaa",
+    "parameters": {
+      "location": "aaaaa"
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "aaaaa"
+      }
+    },
+    "202": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "location": "aaaaa"
+      }
+    }
+  }
+}

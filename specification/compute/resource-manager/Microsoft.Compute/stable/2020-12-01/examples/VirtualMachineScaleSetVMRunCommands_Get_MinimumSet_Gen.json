@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmScaleSetName": "aaaaaaaaaaaaaaaaaaaa",
+    "instanceId": "aaaaaaaa",
+    "runCommandName": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgcompute",
+    "vmScaleSetName": "aaaaa",
+    "instanceId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "vmExtensionName": "aaaaaa",
+    "extensionParameters": {
+      "properties": {
+        "autoUpgradeMinorVersion": true,
+        "publisher": "extPublisher",
+        "type": "extType",
+        "typeHandlerVersion": "1.2",
+        "settings": {},
+        "forceUpdateTag": "aaa",
+        "enableAutomaticUpgrade": true,
+        "protectedSettings": {},
+        "instanceView": {
+          "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "type": "aaaaaaaaaaaaaaaaaaaaaa",
+          "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+          "substatuses": [
+            {
+              "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:07:49.157Z"
+            }
+          ],
+          "statuses": [
+            {
+              "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "level": "Info",
+              "displayStatus": "aaaaaaaaaaaaaa",
+              "message": "aaaaaaaaaaaaaaaa",
+              "time": "2021-03-18T02:07:49.157Z"
+            }
+          ]
+        }
+      }
+    },
+    "api-version": "2020-12-01",
+    "subscriptionId": "{subscription-id}"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "publisher": "extPublisher",
+          "type": "extType",
+          "typeHandlerVersion": "1.2",
+          "settings": {},
+          "forceUpdateTag": "aaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaaaaaaaaaaaaaaaaaa",
+            "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+            "substatuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ],
+            "statuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ]
+          }
+        },
+        "name": "myVMExtension",
+        "type": "Microsoft.Compute/virtualMachineScaleSets/virtualMachines/extensions",
+        "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachineScaleSets/myvmScaleSet/virtualMachines/0/extensions/myVMExtension"
+      }
+    },
+    "201": {
+      "headers": {
+        "location": "https://foo.com/operationstatus"
+      },
+      "body": {
+        "properties": {
+          "autoUpgradeMinorVersion": true,
+          "publisher": "extPublisher",
+          "type": "extType",
+          "typeHandlerVersion": "1.2",
+          "settings": {},
+          "forceUpdateTag": "aaa",
+          "enableAutomaticUpgrade": true,
+          "protectedSettings": {},
+          "provisioningState": "Succeeded",
+          "instanceView": {
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "type": "aaaaaaaaaaaaaaaaaaaaaa",
+            "typeHandlerVersion": "aaaaaaaaaaaaaaa",
+            "substatuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ],
+            "statuses": [
+              {
+                "code": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "level": "Info",
+                "displayStatus": "aaaaaaaaaaaaaa",
+                "message": "aaaaaaaaaaaaaaaa",
+                "time": "2021-03-18T02:07:49.157Z"
+              }
+            ]
+          }
+        },
+        "name": "myVMExtension",
+        "type": "Microsoft.Compute/virtualMachineScaleSets/virtualMachines/extensions",
+        "id": "/subscriptions/{subscriptionId}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachineScaleSets/myvmScaleSet/virtualMachines/0/extensions/myVMExtension"
+      }
+    }
+  }
+}

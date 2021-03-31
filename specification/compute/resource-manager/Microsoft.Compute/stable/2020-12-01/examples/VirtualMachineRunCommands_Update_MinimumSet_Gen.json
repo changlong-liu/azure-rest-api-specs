@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "resourceGroupName": "rgrunCommands",
+    "vmName": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "runCommandName": "aaaaaaaaaaaaaaaaaaaaa",
+    "runCommand": {},
+    "api-version": "2020-12-01",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "location": "West US"
+      }
+    }
+  }
+}
