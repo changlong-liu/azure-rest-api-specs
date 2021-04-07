@@ -54,12 +54,7 @@
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_temp_name'))]"
                             },
                             "privateIPAddressVersion": "IPv4"
-                        },
-                        "zones": [
-                            "1",
-                            "2",
-                            "3"
-                        ]
+                        }
                     }
                 ],
                 "backendAddressPools": [],
